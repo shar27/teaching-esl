@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './components/Nav'
 import Image from 'next/dist/client/image'
-import {FcReadingEbook} from 'react-icons/all-files/fc/FcReadingEbook'
+import {FcReadingEbook} from 'react-icons/Fc'
 import Link from 'next/link'
 import {FcConferenceCall} from 'react-icons/Fc'
 function Pricing() {
