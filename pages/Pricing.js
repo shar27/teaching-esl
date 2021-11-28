@@ -1,9 +1,9 @@
 import React from 'react'
 import Nav from './components/Nav'
 import Image from 'next/dist/client/image'
-import {FcReadingEbook} from 'react-icons/Fc'
+import {FcReadingEbook} from 'react-icons/lib/fc/readingebook'
 import Link from 'next/link'
-import {FcConferenceCall} from 'react-icons/Fc'
+import {FcConferenceCall} from 'react-icons/lib/fc/conferencecall'
 function Pricing() {
     return (
         <div>
