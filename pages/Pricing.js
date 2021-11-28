@@ -1,9 +1,8 @@
 import React from 'react'
 import Nav from './components/Nav'
 import Image from 'next/dist/client/image'
-import {FcReadingEbook} from 'react-icons/Fc'
 import Link from 'next/link'
-import {FcConferenceCall} from 'react-icons/Fc'
+
 function Pricing() {
     return (
         <div>
@@ -15,9 +14,13 @@ function Pricing() {
 <div className="container d-flex justify-content-center mt-4">
 <div className="row">
 <div className="card col text-center">
-<h5 className="card-title text-center fw-bold">Individual</h5>
+<h5 className="card-title text-center fw-bold p-2">Individual</h5>
   <div className="card-body">
-    <FcReadingEbook size={96}/>
+  <Image
+        src="/single.png"
+        width = "200"
+        height ="200"
+    />
     <h6 className="card-subtitle mb-2 text-muted">60 minutes</h6>
     <ul className="list-unstyled">
         <li>World class teacher</li>
@@ -31,9 +34,13 @@ function Pricing() {
   </div>
 </div>
 <div className="card col ms-4 text-center">
-<h5 className="card-title text-center fw-bold">Group lesson</h5>
+<h5 className="card-title text-center fw-bold p-2">Group lesson</h5>
   <div className="card-body">
-    <FcConferenceCall size={96}/>
+    <Image
+        src="/group.png"
+        width = "200"
+        height ="200"
+    />
     <h6 className="card-subtitle mb-2 ms-4 text-muted">60 minutes</h6>
     <ul className="list-unstyled">
         <li>World class teacher</li>
