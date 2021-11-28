@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './components/Nav'
 import Image from 'next/dist/client/image'
 import {FcReadingEbook} from 'react-icons/Fc'
-import link from 'next/link'
+import Link from 'next/link'
 import {FcConferenceCall} from 'react-icons/Fc'
 function Pricing() {
     return (
@@ -24,7 +24,9 @@ function Pricing() {
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
         <li>Free cancelation within 24 hours</li>
-        <button className="btn btn-warning fw-bold text-white">Pay now</button>
+        <Link href="https://buy.stripe.com/6oE8zKc3N1HQ6kg8wx">
+        <a className="btn btn-warning fw-bold text-white">Pay now</a>
+        </Link>
     </ul>
   </div>
 </div>
@@ -38,7 +40,9 @@ function Pricing() {
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
         <li>Free cancelation within 24 hours</li>
-        <button className="btn btn-warning fw-bold text-white">Pay now</button>
+        <Link href="https://buy.stripe.com/9AQ6rCd7R0DMeQMaEE">
+        <a className="btn btn-warning fw-bold text-white">Pay now</a>
+        </Link>
     </ul>
   </div>
 </div>
