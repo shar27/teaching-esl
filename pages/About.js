@@ -26,7 +26,7 @@ const theme = {
 <div>
 <Head>
   <title>About</title>
-  <meta name="description" content="An introduction on who I am and what technology I like to use for my site" />
+  <meta name="description" content="An self-introduction page" />
 </Head>
 
 <Logo/>
