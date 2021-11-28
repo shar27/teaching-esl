@@ -17,7 +17,7 @@ function Pricing() {
 <h5 className="card-title text-center fw-bold p-2">Individual</h5>
   <div className="card-body">
   <Image
-        src="/single.png"
+        src="/singlecallnew.png"
         width = "200"
         height ="200"
     />
@@ -37,7 +37,7 @@ function Pricing() {
 <h5 className="card-title text-center fw-bold p-2">Group lesson</h5>
   <div className="card-body">
     <Image
-        src="/group.png"
+        src="/groupcall.png"
         width = "200"
         height ="200"
     />
