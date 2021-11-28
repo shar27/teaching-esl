@@ -1,6 +1,6 @@
 import React from 'react'
-import {Grid} from '@material-ui/core';
-import {BiTime } from 'react-icons/BI';
+
+import {BiTime } from 'react-icons/Bi';
 import {FcMultipleDevices} from 'react-icons/Fc'
 import {MdGppGood} from 'react-icons/Md'
 
