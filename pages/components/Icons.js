@@ -1,27 +1,32 @@
 import React from 'react'
-
-import {BiTime } from 'react-icons/Bi';
-import {FcMultipleDevices} from 'react-icons/Fc'
-import {MdGppGood} from 'react-icons/Md'
+import Image from 'next/image'
 
 function Icons() {
     return (
     <div className="d-flex justify-content-evenly col-sm-12 col-md-12">
    
-<FcMultipleDevices
-   size={96}
 
+   <Image
+       src="/multidevice.png"
+       height="300"
+       width="300"
    />
+
+
+
+<Image
+       src="/freetime.png"
+       height="300"
+       width="300"
+   />
+
    
 
-<BiTime
-   size={96}
-
+<Image
+       src="/thumbs.png"
+       height="300"
+       width="300"
    />
-
-<MdGppGood 
-    size={96}
-/>
 
 
 
