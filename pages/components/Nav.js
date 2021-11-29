@@ -9,7 +9,11 @@ function Nav() {
   
 
 <ul  className="nav justify-content-center m-1 p-1 col-12 pe-auto">
-   
+<li className="nav-item">
+  <Link  href="/">
+    <a  className="nav-link m-2 p-1  pe-auto text-dark">Home</a>
+    </Link>
+  </li>
   <li className="nav-item">
   <Link  href="About">
     <a  className="nav-link m-2 p-1  pe-auto text-dark">About me</a>

@@ -8,7 +8,8 @@ import Bgimg from './components/Bgimg'
 import Icons from './components/Icons'
 import IconsText from './components/IconsText'
 import Quote from './components/Quote'
-
+import Stats from './components/Stats'
+import Testimonials from './components/Testimonials'
 
 export default function Home() {
   return (
@@ -21,10 +22,15 @@ export default function Home() {
       <Logo/>
     <Nav/>
       <Bgimg/>
+    
+      <Quote/>  
     <Icons/>
-    <IconsText/>
-      <Quote/>
+    
+      
+      <Testimonials/>
+    <Stats/>
       <Contact/>
+
     </div>
   )
 }

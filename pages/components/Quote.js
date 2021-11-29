@@ -2,7 +2,7 @@ import React from 'react'
 
 function Quote() {
     return (
-<div className="d-flex justify-content-center">
+<div className="d-flex justify-content-center container mt-4">
 <figure className="text-center">
   <blockquote className="blockquote">
     <p>If you talk to a man in a language he understands, that goes to his head. 

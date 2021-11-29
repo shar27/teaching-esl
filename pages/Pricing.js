@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function Pricing() {
     return (
-        <div>
+<div>
            <Nav/>
 <br/>
 <br/>
@@ -14,6 +14,26 @@ function Pricing() {
 <div className="container d-flex justify-content-center mt-4">
 <div className="row">
 <div className="card col text-center">
+<h5 className="card-title text-center fw-bold p-2">Individual</h5>
+  <div className="card-body">
+  <Image
+        src="/singlecallnew.png"
+        width = "200"
+        height ="200"
+    />
+    <h6 className="card-subtitle mb-2 text-muted">30 minutes</h6>
+    <ul className="list-unstyled">
+        <li>World class teacher</li>
+        <li>Flexible schedule</li>
+        <li>Pay as you go</li>
+        <li>Free cancelation within 24 hours</li>
+        <Link href="https://buy.stripe.com/eVa3fqc3N72adMI146">
+        <a className="btn btn-warning fw-bold text-white">Pay now</a>
+        </Link>
+    </ul>
+  </div>
+</div>
+<div className="card col ms-4 text-center">
 <h5 className="card-title text-center fw-bold p-2">Individual</h5>
   <div className="card-body">
   <Image
@@ -33,6 +53,7 @@ function Pricing() {
     </ul>
   </div>
 </div>
+
 <div className="card col ms-4 text-center">
 <h5 className="card-title text-center fw-bold p-2">Group lesson</h5>
   <div className="card-body">
@@ -52,6 +73,7 @@ function Pricing() {
         </Link>
     </ul>
   </div>
+  
 </div>
 
 </div>
