@@ -6,28 +6,34 @@ const slideImages = [
     {
       url: 'class.jpg',
       caption: '"Great to work with"',
+      source: 'Marcin, from Poznan.',
       rating: '⭐⭐⭐⭐⭐'
       
     },
     {
-      url: '/single.png',
+      url: '/class.png',
       caption: '"Great to work with"',
+      source: 'Marcin, from Poznan.',
       rating: '⭐⭐⭐⭐⭐'
     },  {
-      url: '/single.png',
+      url: '/class.png',
       caption: '"Great to work with"',
+      source: 'Agnieszka, from Poznan.',
       rating: '⭐⭐⭐⭐⭐'
     },  {
-      url: '/single.png',
+      url: '/class.png',
       caption: '"Great to work with"',
+      source: 'Stas, from Poznan.',
       rating: '⭐⭐⭐⭐⭐'
     },  {
-      url: '/single.png',
+      url: '/class.png',
       caption: '"Great to work with"',
+      source: 'Joanna, from Poznan.',
       rating: '⭐⭐⭐⭐⭐'
     },  {
-      url: '/single.png',
+      url: '/class.png',
       caption: '"Great to work with"',
+      source: 'Mikolaj, from Poznan.',
       rating: '⭐⭐⭐⭐⭐'
     }
  
@@ -41,7 +47,12 @@ const slideImages = [
               <div className="each-slide" key={index}>
                 <div style={{'backgroundImage': `url(${slideImage.url})`}}>
                   <span>{slideImage.caption}</span>
-                  <span>{slideImage.rating}</span>
+                  <p>{slideImage.source}</p>
+                  <p>{slideImage.rating}</p>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
                 </div>
               </div>
             ))} 
