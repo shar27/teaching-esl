@@ -5,30 +5,32 @@ import 'react-slideshow-image/dist/styles.css'
 const slideImages = [
     {
       url: 'class.jpg',
-      caption: '"He was great to work with blah"',
-      rating: ''
+      caption: '"Great to work with"',
+      rating: '⭐⭐⭐⭐⭐'
+      
     },
     {
       url: '/single.png',
-      caption: '"Great to work with"'
-    },
-    {
+      caption: '"Great to work with"',
+      rating: '⭐⭐⭐⭐⭐'
+    },  {
       url: '/single.png',
-      caption: '"Great to work with"'
-    },
-    {
+      caption: '"Great to work with"',
+      rating: '⭐⭐⭐⭐⭐'
+    },  {
       url: '/single.png',
-      caption: '"Great to work with"'
-    },
-    {
+      caption: '"Great to work with"',
+      rating: '⭐⭐⭐⭐⭐'
+    },  {
       url: '/single.png',
-      caption: '"Great to work with"'
-    },
-    {
+      caption: '"Great to work with"',
+      rating: '⭐⭐⭐⭐⭐'
+    },  {
       url: '/single.png',
-      caption: '"Great to work with"'
+      caption: '"Great to work with"',
+      rating: '⭐⭐⭐⭐⭐'
     }
-    
+ 
   ];
   
   const Testimonials = () => {
@@ -39,6 +41,7 @@ const slideImages = [
               <div className="each-slide" key={index}>
                 <div style={{'backgroundImage': `url(${slideImage.url})`}}>
                   <span>{slideImage.caption}</span>
+                  <span>{slideImage.rating}</span>
                 </div>
               </div>
             ))} 
