@@ -11,7 +11,7 @@ function Stats() {
                 <div className="row">
                     <div className="col">
                 <h1 className="text-white fw-bold mt-4">1000+</h1>
-                <p className=" text-lead  text-white">Satisfied customers.</p>
+                <p className=" text-lead  text-white">Students that I have worked with.</p>
                 <br/>
                     </div>
                     <div className="col">

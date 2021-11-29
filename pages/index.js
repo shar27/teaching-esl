@@ -10,6 +10,9 @@ import IconsText from './components/IconsText'
 import Quote from './components/Quote'
 import Stats from './components/Stats'
 import Testimonials from './components/Testimonials'
+import Intro from './components/Intro'
+import Dropbox from './components/Dropbox'
+
 
 export default function Home() {
   return (
@@ -22,7 +25,9 @@ export default function Home() {
       <Logo/>
     <Nav/>
       <Bgimg/>
-    
+    <Intro/>
+    <br/>
+    <Dropbox/>
       <Quote/>  
     <Icons/>
     
