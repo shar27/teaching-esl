@@ -3,11 +3,12 @@ import Image from 'next/dist/client/image'
 import ReactPlayer from 'react-player'
 import {useState} from 'react'
 
+
 function Bgimg() {
 
     const [isPlaying, setIsPlaying] = useState(true);
 
-    const url = 'https://player.vimeo.com/external/422682086.sd.mp4?s=921c7f9bc0fb6df8ec8e13631a6a6a9d003731b2&profile_id=139&oauth2_token_id=57447761'
+    const url = 'https://player.vimeo.com/external/463496110.sd.mp4?s=905a46f4faf6c79740e9a76b353b7e3354f396b8&profile_id=139&oauth2_token_id=57447761'
 
     return (
         <div>
