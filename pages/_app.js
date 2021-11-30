@@ -22,10 +22,11 @@ function MyApp({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE}');
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE}', {
+              page_path: window.location.pathname,
+            });
                 `}
-   </Script>
-  <Component {...pageProps} />
+      </Script>  <Component {...pageProps} />
   </>
   )
 }
