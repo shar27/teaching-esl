@@ -14,7 +14,7 @@ function Pricing() {
 <div className="container d-flex justify-content-center mt-4 ">
 <div className="row">
 <div className="card col text-center ">
-<h5 className="card-title text-center fw-bold p-2">Individual</h5>
+<h5 className="card-title text-center fw-bold p-2 col-sm-12">Individual</h5>
   <div className="card-body">
   <Image
         src="/phone.png"
