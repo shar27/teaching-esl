@@ -34,7 +34,7 @@ function Nav() {
   </Link>
   </li>
   <li className="nav-item">
-  <Link href="#contact"> 
+  <Link href="/#contact"> 
     <a className="nav-link m-2 p-1   text-primary">Contact</a>
     </Link>
  </li>
