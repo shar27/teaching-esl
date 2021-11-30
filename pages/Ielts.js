@@ -10,6 +10,8 @@ function Ielts() {
         <div>
         <Head>
         <title>Ielts</title>
+        <meta name="description" content="Learn how to ace the IELTS" />
+        <link rel="icon" href="/teachinglogo.png" />
         </Head>
         <Nav/>
             <h1 className="text-center fw-bold text-primary">IELTS</h1>

@@ -10,6 +10,8 @@ function Customeng() {
         <div>
           <Head>
         <title>IELTS</title>
+        <meta name="description" content="Learn how to pass the IELTS." />
+        <link rel="icon" href="/teachinglogo.png" />
         </Head>
         <Nav/>
             <h1 className="text-center fw-bold text-primary">Custom English</h1>

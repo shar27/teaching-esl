@@ -10,7 +10,7 @@ function Pricing() {
 
 <div>
 <Head>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="description" content="Pricing page for English lessons."/>
 <title>Pricing</title>
 </Head>
            <Nav/>

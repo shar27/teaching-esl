@@ -13,6 +13,8 @@ class Courses extends React.Component {
             <div>
             <Head>
             <title>Courses</title>
+            <meta name="description" content="All courses provided by me." />
+        <link rel="icon" href="/teachinglogo.png" />
             </Head>
                 <Logo/>
                 <Nav/>

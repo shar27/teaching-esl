@@ -10,6 +10,8 @@ function Grammareng() {
         <div>
         <Head>
         <title>Grammar</title>
+        <meta name="description" content="Learn the correct way to use English grammar." />
+        <link rel="icon" href="/teachinglogo.png" />
         </Head>
         <Nav/>
         <h1 className="text-center fw-bold text-primary">Grammar</h1>

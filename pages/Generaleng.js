@@ -9,6 +9,8 @@ function Generaleng() {
         <div>
             <Head>
         <title>General English</title>
+        <meta name="description" content="A general English course." />
+        <link rel="icon" href="/teachinglogo.png" />
         </Head>
         <Nav/>
             <h1 className="text-center fw-bold text-primary">General English</h1>

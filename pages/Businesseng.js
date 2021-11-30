@@ -10,6 +10,8 @@ function Businesseng() {
         <div>
             <Head>
         <title>Business English</title>
+        <meta name="description" content="A business english course." />
+        <link rel="icon" href="/teachinglogo.png" />
         </Head>
         <Nav/>
             

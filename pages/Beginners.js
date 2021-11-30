@@ -10,6 +10,8 @@ function Beginners() {
         <div>
         <Head>
         <title>Beginner course</title>
+        <meta name="description" content="A beginners course for learning english." />
+        <link rel="icon" href="/teachinglogo.png" />
         </Head>
         <Nav/>
              <h1 className="text-center fw-bold text-primary">Beginners English</h1>
