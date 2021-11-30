@@ -4,9 +4,13 @@ import Link from 'next/dist/client/link'
 import Head from 'next/dist/shared/lib/head'
 import Image from 'next/dist/client/image'
 import Dropbox from './components/Dropbox'
+
 function Beginners() {
     return (
         <div>
+        <Head>
+        <title>Beginner course</title>
+        </Head>
         <Nav/>
              <h1 className="text-center fw-bold text-primary">Beginners English</h1>
             <h3 className="text-center fw-bold text-primary">What does it mean?</h3>

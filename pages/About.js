@@ -2,10 +2,14 @@ import React from 'react'
 import Nav from './components/Nav'
 import Logo from './components/Logo'
 import Image from 'next/dist/client/image'
+import Head from 'next/dist/shared/lib/head'
 
 function About() {
     return (
         <div>
+        <Head>
+        <title>About me</title>
+        </Head>
         <Logo/>
             <Nav/>
             <div className="container">

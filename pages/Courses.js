@@ -4,13 +4,16 @@ import Logo from './components/Logo'
 import Image from 'next/image'
 import Link from 'next/link'
 import ExpandText from 'react-expand-text';
-
+import Head from 'next/dist/shared/lib/head'
 
 class Courses extends React.Component {
 
     render() {
         return (
             <div>
+            <Head>
+            <title>Courses</title>
+            </Head>
                 <Logo/>
                 <Nav/>
                 <div className="container">

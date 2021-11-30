@@ -9,7 +9,7 @@ function Customeng() {
     return (
         <div>
           <Head>
-        <title>Ielts</title>
+        <title>IELTS</title>
         </Head>
         <Nav/>
             <h1 className="text-center fw-bold text-primary">Custom English</h1>
