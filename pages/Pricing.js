@@ -2,19 +2,26 @@ import React from 'react'
 import Nav from './components/Nav'
 import Image from 'next/dist/client/image'
 import Link from 'next/link'
+import Head from 'next/head'
 
 function Pricing() {
     return (
+
+
 <div>
+<Head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>Pricing</title>
+</Head>
            <Nav/>
 <br/>
 <br/>
 <br/>
 <br/>
-<div className="container d-flex justify-content-center mt-4 ">
+<div className="container d-flex justify-content-center mt-4 col-sm-12">
 <div className="row">
 <div className="card col text-center ">
-<h5 className="card-title text-center fw-bold p-2 col-sm-12">Individual</h5>
+<h5 className="card-title text-center fw-bold p-2 col-sm-12">Single</h5>
   <div className="card-body">
   <Image
         src="/phone.png"
@@ -34,7 +41,7 @@ function Pricing() {
   </div>
 </div>
 <div className="card col ms-4 text-center ">
-<h5 className="card-title text-center fw-bold p-2 ">Individual</h5>
+<h5 className="card-title text-center fw-bold p-2 ">Single</h5>
   <div className="card-body">
   <Image
         src="/singlecallnew.png"
