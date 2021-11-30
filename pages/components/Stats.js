@@ -1,5 +1,7 @@
 import React from 'react'
 
+import CountUp from 'react-countup';
+
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 
@@ -10,7 +12,7 @@ function Stats() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                <h1 className="text-white fw-bold mt-4">1000+</h1>
+                    <h1 className="text-white fw-bold mt-4">1000+</h1>
                 <p className=" text-lead  text-white">Students that I have worked with.</p>
                 <br/>
                     </div>
