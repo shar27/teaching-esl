@@ -10,12 +10,12 @@ function About() {
             <Nav/>
             <div className="container">
         <Image
-            className="rounded-circle"
+            className="rounded-circle col-sm-12"
             src ="/profile-warsaw.jpg"
             width="300"
             height="300%"
         />
-        <span className="fw-bold display-5">About me</span>
+        <h1 className="fw-bold display-5 col-sm-12 text-center">About me</h1>
         <p className="lead mt-4 text-center">Hello and welcome to my site. My name is Shar and I am from the UK. I was born and raised in a small
     town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love traveling and I love exploring the unknown.
     If you already can't tell, a byproduct of traveling is learning a new language, a new way of thinking and an opportunity for growth.
