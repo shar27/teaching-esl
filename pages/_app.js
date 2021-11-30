@@ -15,14 +15,14 @@ function MyApp({ Component, pageProps }) {
   <Script 
    
    strategy="lazyOnload"
-   src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_GOOGLE}`}/>
+   src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE}`}/>
 
 <Script strategy="lazyOnload">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_GOOGLE}');
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE}');
                 `}
    </Script>
   <Component {...pageProps} />
