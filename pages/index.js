@@ -37,8 +37,9 @@ export default function Home() {
       
       <Testimonials/>
     <Stats/>
+    
       <Contact/>
-
+    
     </div>
   )
 }
