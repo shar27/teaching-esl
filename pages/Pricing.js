@@ -18,9 +18,9 @@ function Pricing() {
 <br/>
 <br/>
 <br/>
-<div className="container d-flex justify-content-center mt-4 col-sm-12">
+<div className="container d-flex justify-content-center mt-4 ">
 <div className="row">
-<div className="card col text-center ">
+<div className="card col-sm-12 col-lg-4 text-center ">
 <h5 className="card-title text-center fw-bold p-2 col-sm-12">Single</h5>
   <div className="card-body">
   <Image
@@ -29,7 +29,7 @@ function Pricing() {
         height ="240"
     />
     <h6 className="card-subtitle mb-2 text-muted">30 minutes</h6>
-    <ul className="list-unstyled">
+    <ul className="list-unstyled col-xs-12">
         <li>World class teacher</li>
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
@@ -40,7 +40,7 @@ function Pricing() {
     </ul>
   </div>
 </div>
-<div className="card col ms-4 text-center ">
+<div className="card col-sm-12 col-lg-4 text-center ">
 <h5 className="card-title text-center fw-bold p-2 ">Single</h5>
   <div className="card-body">
   <Image
@@ -61,7 +61,7 @@ function Pricing() {
   </div>
 </div>
 
-<div className="card col ms-4 text-center ">
+<div className="card col-sm-12 col-lg-4 text-center ">
 <h5 className="card-title text-center fw-bold p-2">Group lesson</h5>
   <div className="card-body">
     <Image
