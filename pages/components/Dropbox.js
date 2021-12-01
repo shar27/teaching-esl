@@ -2,7 +2,6 @@ import React from 'react'
 import DropboxChooser from 'react-dropbox-chooser'
 import {useState} from 'react'
 
-const APP_KEY="25yimk69f3etkxa"
 
 
 export default function Dropbox() {
@@ -11,8 +10,11 @@ export default function Dropbox() {
       setUrl(files[0].thumbnailLink)
       console.log(url)
     }
+
+    const APP_KEY="25yimk69f3etkxa"
+
     return (
-       
+ 
  <div className="container">
     
     <p className=" lead text-center fw-bold text-muted ms-4">** Please include your full name, title of the document and date.</p>
@@ -21,7 +23,7 @@ export default function Dropbox() {
           
       <br/>
     <div className="container  d-flex justify-content-center">
-      <DropboxChooser appKey={`${process.env.APP_PUBLIC_KEY}`}
+      <DropboxChooser app_key={APP_KEY}
                       success={handleSuccess}
                       cancel={() => console.log('closed')}
                       multiselect={true}
