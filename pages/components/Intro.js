@@ -26,14 +26,14 @@ function Intro() {
            
            </div>   
           
-        <div className="col-sm-12 col-lg-12 border border-white shadow me-2 bg-primary">
+        <div className="col-sm-12 col-lg-12 border border-white shadow me-2">
         
-        <h1 className="text-center text-dark mt-4 fw-bold text-white">Free proofreading from a British native speaker.</h1>
+        <h1 className="text-center text-dark mt-4 fw-bold">Free proofreading from a British native speaker.</h1>
         <br/>
            
            <br/>
            <br/>
-        <p className="lead text-center text-white fw-bold">* Note: if you have something longer than a paragraph then please email me first. </p>
+        <p className="lead text-center  fw-bold">* Note: if you have something longer than a paragraph then please email me first. </p>
         <Dropbox/>
            </div> 
            <div className="col-sm-12 col-lg-12  border border-white shadow text-center bg-warning">
@@ -52,7 +52,7 @@ function Intro() {
            
            
             <Link href="/Pricing">
-           <a className="btn btn-primary mb-4">Learn more</a>
+           <a className="btn btn-primary fw-bold mb-4">Learn more</a>
         </Link>
            
         </div>
