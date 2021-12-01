@@ -12,7 +12,7 @@ import Stats from './components/Stats'
 import Testimonials from './components/Testimonials'
 import Intro from './components/Intro'
 import Dropbox from './components/Dropbox'
-
+import Test from './components/Test'
 
 export default function Home() {
   return (
@@ -32,7 +32,7 @@ export default function Home() {
     <br/>
     
     
-      
+      <Test/>
     <Icons/>
     
       <hr/>
