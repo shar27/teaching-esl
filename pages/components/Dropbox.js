@@ -14,16 +14,16 @@ export default function Dropbox() {
     const APP_KEY="25yimk69f3etkxa"
 
     return (
- 
+       
  <div className="container">
     
-    <p className=" lead text-center fw-bold text-muted ms-4">** Please include your full name, title of the document and date.</p>
+    <p className=" lead text-center fw-bold text-muted ms-4">*** Please include your full name, title of the document and date.</p>
     <p className=" lead text-center fw-bold text-muted ms-4 ">"Joe Bloggs - assignment proofread"</p>
       <br/>
           
       <br/>
     <div className="container  d-flex justify-content-center">
-      <DropboxChooser app_key={APP_KEY}
+      <DropboxChooser appKey={APP_KEY}
                       success={handleSuccess}
                       cancel={() => console.log('closed')}
                       multiselect={true}
