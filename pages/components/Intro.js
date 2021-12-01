@@ -7,9 +7,9 @@ import styles from './styles/Intro.module.css'
 
 function Intro() {
     return (
-        <div className={styles.introone}>
+        <div className="container">
         <div className="row">
-        <div className="col-sm-12 col-lg-12 p-2 border border-white shadow text-center bg-info text-white ">
+        <div className="col-sm-12 col-lg-12 p-2 border border-white shadow text-center bg-warning text-white ">
            <h1 className="text-center fw-bold text-white ">Learn English online with a British native speaker</h1>
            <p className="text-center lead ">Learning with a native speaker is crucial to taking your understanding to the
            next level. Working with a native is far different as the only common language we have is English and that means you need to 
@@ -26,7 +26,7 @@ function Intro() {
            
            </div>   
           
-        <div className="col-sm-12 col-lg-12 border border-white shadow me-2 bg-danger">
+        <div className="col-sm-12 col-lg-12 border border-white shadow me-2 bg-primary">
         
         <h1 className="text-center text-dark mt-4 fw-bold text-white">Free proofreading from a British native speaker.</h1>
         <br/>
@@ -36,7 +36,7 @@ function Intro() {
         <p className="lead text-center text-white fw-bold">* Note: if you have something longer than a paragraph then please email me first. </p>
         <Dropbox/>
            </div> 
-           <div className="col-sm-12 col-lg-12  border border-white shadow text-center bg-success">
+           <div className="col-sm-12 col-lg-12  border border-white shadow text-center bg-warning">
            <h1 className="text-center text-light fw-bold mt-4">Private lessons for children.</h1>
            <br/>
            <br/>
