@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 
+
 function Icons() {
     return (
-    <div className="d-flex justify-content-evenly col-sm-12 col-md-12">
+
+<div className="d-flex justify-content-evenly col-sm-12 col-md-12">
    
 
    <Image
@@ -29,7 +31,7 @@ function Icons() {
    />
 
 
-        
+
         </div>
     )
 }

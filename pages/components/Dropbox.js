@@ -17,8 +17,8 @@ export default function Dropbox() {
        
  <div className="container">
     
-    <p className=" lead text-center fw-bold text-muted ms-4">*** Please include your full name, title of the document and date.</p>
-    <p className=" lead text-center fw-bold text-muted ms-4 ">"Joe Bloggs - assignment proofread"</p>
+    <p className=" lead text-center fw-bold text-white ms-4">*** Please include your full name, title of the document and date.</p>
+    <p className=" lead text-center fw-bold text-white ms-4 ">"Joe Bloggs - assignment proofread"</p>
       <br/>
           
       <br/>
@@ -29,7 +29,7 @@ export default function Dropbox() {
                       multiselect={true}
                       extensions={['.mp4','.pdf', '.docx', '.mp3', '.png', '.jpg']}
                       >
-        <button className="btn btn-primary">Upload or Choose Files</button>
+        <button className="btn btn-warning text-white fw-bold">Upload or Choose Files</button>
         <div className="dropbox"></div>
         <br/><br/>
         
