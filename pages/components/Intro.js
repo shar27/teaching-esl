@@ -18,13 +18,13 @@ function Intro() {
            <br/>
            <br/>
            <Link href="/Courses">
-           <a className="btn btn-primary mt-4">Read more</a>
+           <a className="btn btn-primary  mb-4">Read more</a>
            </Link>
            </div>   
           
-        <div className="col-sm-12 col-lg-4 border border-white shadow">
+        <div className="col-sm-12 col-lg-4 border border-white shadow ">
         
-        <h2 className="text-center text-dark fw-bold ">Free proofreading from a British native speaker.</h2>
+        <h1 className="text-center text-dark mt-4 fw-bold">Free proofreading from a British native speaker.</h1>
         <br/>
            
            <br/>
@@ -32,8 +32,8 @@ function Intro() {
         <p className="lead text-muted text-center fw-bold">* Note: if you have something longer than a paragraph then please email me first. </p>
         <Dropbox/>
            </div> 
-           <div className="col-sm-12 col-lg-4 border border-white shadow text-center">
-           <h1 className="text-center text-dark fw-bold">Private lessons for children.</h1>
+           <div className="col-sm-12 col-lg-4  border border-white shadow text-center">
+           <h1 className="text-center text-dark fw-bold mt-4">Private lessons for children.</h1>
            <br/>
            <br/>
            <br/>
@@ -48,7 +48,7 @@ function Intro() {
            
            
             <Link href="/Pricing">
-           <a className="btn btn-primary">Learn more</a>
+           <a className="btn btn-primary mb-4">Learn more</a>
         </Link>
            
         </div>
