@@ -25,16 +25,18 @@ export default function Home() {
       <Logo/>
     <Nav/>
       <Bgimg/>
+      <br/>
+      <br/>
+      <br/>
     <Intro/>
     <br/>
-    <h2 className="text-center text-primary fw-bold">Need something urgent done? </h2>
-    <h2 className="text-center text-primary fw-bold">Free proofreading from a British native speaker.</h2>
-    <p className="lead text-muted text-center fw-bold">Note: if you have something longer than a paragraph then please email me first. </p>
-    <Dropbox/>
-      <Quote/>  
-    <Icons/>
+    
     
       
+    <Icons/>
+    
+      <hr/>
+      <br/>
       <Testimonials/>
     <Stats/>
     

@@ -14,14 +14,14 @@ export default function Dropbox() {
     return (
        
  <div className="container">
-    <h5 className="display-5 text-center ms-4 ">Upload your file here...</h5>
-    <p className=" lead text-center ms-4"> Please include your full name, title of the document and date.</p>
-    <p className=" lead text-center ms-4 ">"Joe Bloggs - assignment proofread"</p>
+    
+    <p className=" lead text-center fw-bold text-muted ms-4">** Please include your full name, title of the document and date.</p>
+    <p className=" lead text-center fw-bold text-muted ms-4 ">"Joe Bloggs - assignment proofread"</p>
       <br/>
           
       <br/>
     <div className="container  d-flex justify-content-center">
-      <DropboxChooser appKey={APP_KEY}
+      <DropboxChooser appKey={`${process.env.APP_PUBLIC_KEY}`}
                       success={handleSuccess}
                       cancel={() => console.log('closed')}
                       multiselect={true}
