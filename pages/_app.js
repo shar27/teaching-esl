@@ -1,5 +1,7 @@
 import '../styles/globals.css'
+import '../styles/Home.module.scss'
 import 'bootstrap/dist/css/bootstrap.css';
+
 import Script from 'next/script'
 
 

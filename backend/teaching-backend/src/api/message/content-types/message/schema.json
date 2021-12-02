@@ -4,7 +4,8 @@
   "info": {
     "singularName": "message",
     "pluralName": "messages",
-    "displayName": "Messages"
+    "displayName": "Messages",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,9 @@
   "attributes": {
     "Greetings": {
       "type": "string"
+    },
+    "Welcome": {
+      "type": "text"
     }
   }
 }

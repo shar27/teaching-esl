@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import Nav from './components/Nav'
 import Contact from './Contact'
 import Logo from './components/Logo'
@@ -23,12 +23,15 @@ export default function Home() {
         <link rel="icon" href="/teachinglogo.png" />
       </Head>
       <Logo/>
+      
     <Nav/>
       <Bgimg/>
       <br/>
       <br/>
       <br/>
-    <Intro/>
+    <Intro className={styles.htag}
+
+    />
     <br/>
     
     
