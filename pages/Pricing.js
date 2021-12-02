@@ -21,7 +21,7 @@ function Pricing() {
 <br/>
 <h1 className="text-center fw-bold text-dark">Pay as you learn.</h1>
 <br/>
-<div className="container d-flex justify-content-center mt-4 border border-white shadow ">
+<div className="container d-flex justify-content-center mt-4  border border-white shadow ">
 <div className="row">
 <div className="card col-sm-12 col-lg-4 text-center border border-white shadow">
 <h5 className="card-title text-center fw-bold p-2 col-sm-12">Single</h5>
@@ -91,7 +91,7 @@ function Pricing() {
 </div>
 
 <h1 className="text-center fw-bold text-dark mt-4 mb-4">Packages</h1>
-<div className="card col-sm-12 col-lg-4 text-center border border-white shadow ">
+<div className="card col-sm-12 col-lg-4  text-center border border-white shadow ">
 <h5 className="card-title text-center fw-bold p-2">Single x 4</h5>
   <div className="card-body">
     <Image
