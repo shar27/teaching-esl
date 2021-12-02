@@ -6,7 +6,7 @@ const slideImages = [
     
     {
       url: '/class.png',
-      caption: '"My english has greatly improved thanks to Shar"',
+      caption: '"Shar is a competent teacher who conducts classes in a professional manner.  Lessons are conducted in a way that uses online learning opportunities, thanks to which the student effectively improves his language skills.Shar to kompetentny nauczyciel, który w profesjonalny sposób prowadzi zajęcia. Lekcje prowadzone są w sposób wykorzystujący możliwości nauki online, dzięki czemu uczeń skutecznie podnosi swoje umiejętności językowe."',
       source: 'Marcin, from Poznan.',
       rating: '⭐⭐⭐⭐⭐'
     },  {
