@@ -69,7 +69,7 @@ function Intro() {
 <br/>
 <br/>
 <br/>
-<p className="lead p-2 col-sm-12  ">Our education systems simply aren't designed to get the best out of our children 
+<p className="lead p-2 col-sm-12 fw-bold  ">Our education systems simply aren't designed to get the best out of our children 
    when it comes to learning a foreign language. That's why many of us left school barely able to speak what we had learnt 
    for a decade. It's best to get a head start now before it's too late.</p>
 </div>
