@@ -31,9 +31,11 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
-    <Intro className={styles.htag}
+    <div className={styles.htag}>
 
-    />
+    <Intro/>
+    </div>
+
     <br/>
     
     
@@ -43,7 +45,9 @@ export default function Home() {
       <hr/>
       <br/>
       <Testimonials/>
+    
     <Stats/>
+    
     <div>
     <InlineWidget url="https://calendly.com/shariqahmed" />
     </div>
