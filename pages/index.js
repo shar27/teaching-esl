@@ -24,8 +24,9 @@ export default function Home() {
         <meta name="description" content="Learn english online with a British native speaker" />
         <link rel="icon" href="/teachinglogo.png" />
       </Head>
+      <div>
       <Logo/>
-      
+      </div>
     <Nav/>
       <Bgimg/>
       <br/>
@@ -42,18 +43,22 @@ export default function Home() {
       <Test/>
       </div>
     <Icons/>
+    <div className={styles.icontext}>
     <IconsText/>
+    </div>
       <hr/>
       <br/>
+      <div className={styles.testimonials}> 
       <Testimonials/>
-    
+</div>
+    <div className={styles.container}>
     <Stats/>
-    
-    <div>
-    <InlineWidget url="https://calendly.com/shariqahmed" />
     </div>
-      <Contact/>
     
+    <InlineWidget url="https://calendly.com/shariqahmed" />
+    <div>
+      <Contact/>
+      </div>
     </div>
   )
 }

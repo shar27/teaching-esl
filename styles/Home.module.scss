@@ -1,5 +1,15 @@
-$color-primary: white;	
+$color-primary:linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 29%, rgba(0,212,255,1) 100%);	
+$color-secondary: white;
 
+.testimonials {
+  
+  color: $color-secondary;
+  border-radius: 30% 70% 87% 33% / 40% 30% 100% 100% ;
+  background: #43cea2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
 
 .htag {
   border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
@@ -8,8 +18,28 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 0%, r
   color: $color-primary;
 }
 
+.icontext{
+
+color: $color-primary; 
+border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
+}
+
+.talkbubble {
+  width: 120px;
+  height: 80px;
+  background: red;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
 .container {
-  padding: 0 2rem;
+  border-radius: 100% 67% 33% / 30% 43% 57% 70%;
+
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 59%, rgba(0,212,255,1) 100%);
+
 }
 
 

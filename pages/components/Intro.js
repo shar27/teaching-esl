@@ -50,12 +50,12 @@ function Intro() {
         
      
  
- <div className="col-sm-12 col-lg-6 border border-white shadow d-flex justify-content-end ">
- <h1 className="fw-bold mt-2">Private lessons for children.</h1>            
+ <div className="col-sm-12 col-lg-6 p-2 border border-white shadow text-center d-flex justify-content-start ">
+ <h1 className="text-start fw-bold">Private lessons for children.</h1>            
            <Image
-              src="/kidlearning.jpg"
+              src="/kidlearn.jpg"
               width= "900"
-              height= "800"
+              height= "900"
            />
 
            

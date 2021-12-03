@@ -35,11 +35,13 @@ const slideImages = [
   
   const Testimonials = () => {
       return (
-        <div className="slide-container container text-center mb-4">
+        <div className="slide-container container text-center mb-4 ">
           <Slide>
            {slideImages.map((slideImage, index)=> (
-              <div className="each-slide" key={index}>
+              <div className="each-slide mt-4" key={index}>
                 <div style={{'backgroundImage': `url(${slideImage.url})`}}>
+                <br/>
+                <br/>
                   <span className="lead fw-bold">{slideImage.caption}</span>
                   <p className="lead fw-bold">{slideImage.source}</p>
                   <p>{slideImage.rating}</p>
