@@ -39,7 +39,7 @@ export default function Home() {
     
       <Test/>
     <Icons/>
-    
+    <IconsText/>
       <hr/>
       <br/>
       <Testimonials/>

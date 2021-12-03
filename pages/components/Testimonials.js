@@ -40,8 +40,8 @@ const slideImages = [
            {slideImages.map((slideImage, index)=> (
               <div className="each-slide" key={index}>
                 <div style={{'backgroundImage': `url(${slideImage.url})`}}>
-                  <span>{slideImage.caption}</span>
-                  <p>{slideImage.source}</p>
+                  <span className="lead fw-bold">{slideImage.caption}</span>
+                  <p className="lead fw-bold">{slideImage.source}</p>
                   <p>{slideImage.rating}</p>
                   <br/>
                   <br/>
