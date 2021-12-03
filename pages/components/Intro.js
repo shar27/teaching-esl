@@ -24,17 +24,15 @@ function Intro() {
            
            </div>   
           
-      <div className="col-lg-6 col-sm-12">
+      <div className="col-lg-6 col-sm-12 border border-white shadow">
       <br/>
       <br/>
       <br/>
       <br/>
-      <p className="text-start lead col-sm-12">Learning with a native speaker is crucial to taking your understanding to the
+      <p className="text-start fw-bold lead col-sm-12">Learning with a native speaker is crucial to taking your understanding to the
            next level. Working with a native is far different as the only common language we have is English and that means you need to 
            really push yourself.</p> 
-      <div className="bg-info border border-5 w-100 h-100 rounded-circle">
       
-      </div>
       </div>
 
         <div className="col-sm-12 col-lg-12 border border-white shadow me-2 ">
@@ -46,9 +44,7 @@ function Intro() {
            <br/>
         <p className="lead text-center  fw-bold">* Note: if you have something longer than a paragraph then please email me first. </p>
         <Dropbox/>
-        <div className="bg-warning w-100 h-100 rounded-circle border border-5">
-      
-      </div>
+       
            </div> 
            
         
@@ -64,7 +60,7 @@ function Intro() {
 
            
         </div>        
-<div className="col-lg-6 col-sm- 4 text-center  ">
+<div className="col-lg-6 col-sm- 4 text-center border border-white shadow  ">
 <br/>
 <br/>
 <br/>

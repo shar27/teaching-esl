@@ -35,7 +35,7 @@ class Courses extends React.Component {
                         </Link>
                         </div>
                         <div className="col-6 col-sm-12 col-lg-6 border border-white shadow ">
-                        <h1>Custom subject</h1>
+                        <h1>Custom Subject</h1>
                         <p>Custom English course that is flexible in topics to help you.</p>
                         <Link href="/Customeng">
                             <a className="btn btn-primary mb-4">Read more</a>
