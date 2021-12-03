@@ -37,7 +37,7 @@ function Pricing() {
         <li>World class teacher</li>
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
-        <li>Free cancelation within 24 hours</li>
+        <li>Free cancellation within 24 hours</li>
         <br/>
         <Link href="https://buy.stripe.com/eVa3fqc3N72adMI146">
         <a className="btn btn-warning fw-bold text-white mt-3">Pay now</a>
@@ -58,7 +58,7 @@ function Pricing() {
         <li>World class teacher</li>
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
-        <li>Free cancelation within 24 hours</li>
+        <li>Free cancellation within 24 hours</li>
        <br/>
         <Link href="https://buy.stripe.com/6oE8zKc3N1HQ6kg8wx">
                <a className="btn btn-warning fw-bold text-white mt-3">Pay now</a>
@@ -80,7 +80,7 @@ function Pricing() {
         <li>World class teacher</li>
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
-        <li>Free cancelation within 24 hours</li>
+        <li>Free cancellation within 24 hours</li>
         <br/>
         <Link href="https://buy.stripe.com/fZe4juc3NcmucIEeV0">
         <a className="btn btn-warning fw-bold text-white mt-3">Pay now</a>
@@ -104,7 +104,7 @@ function Pricing() {
         <li>World class teacher</li>
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
-        <li>Free cancelation within 24 hours</li>
+        <li>Free cancellation within 24 hours</li>
         <Link href="https://buy.stripe.com/5kAcQ0aZJfyGaAwaEH">
         <a className="btn btn-warning fw-bold text-white mt-4">Pay now</a>
         </Link>
@@ -124,7 +124,7 @@ function Pricing() {
         <li>World class teacher</li>
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
-        <li>Free cancelation within 24 hours</li>
+        <li>Free cancellation within 24 hours</li>
         <Link href="https://buy.stripe.com/fZecQ05Fp0DM6kgfZ3">
         <a className="btn btn-warning fw-bold text-white mt-4">Pay now</a>
         </Link>
@@ -145,7 +145,7 @@ function Pricing() {
         <li>World class teacher</li>
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
-        <li>Free cancelation within 24 hours</li>
+        <li>Free cancellation within 24 hours</li>
         <Link href="https://buy.stripe.com/28o3fq0l5euCeQMdQU">
         <a className="btn btn-warning fw-bold text-white mt-4">Pay now</a>
         </Link>

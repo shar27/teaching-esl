@@ -32,8 +32,8 @@ function About() {
         <div className="col-12">
         <h1 className="fw-bold display-5 col-sm-12 text-center mt-4">About me</h1>
         <p className="lead mt-4 text-center">Hello and welcome to my site. My name is Shar and I am from the UK. I was born and raised in a small
-    town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love traveling and I love exploring the unknown.
-    If you already can't tell, a byproduct of traveling is learning a new language, a new way of thinking and an opportunity for growth.
+    town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love travelling and I love exploring the unknown.
+    If you already can't tell, a byproduct of travelling is learning a new language, a new way of thinking and an opportunity for growth.
     To date, I have visited 27 countries and I have lived in 3 of them.</p>
 
     </div>
@@ -46,7 +46,7 @@ function About() {
 </div>
 <div className="col-6">
     <h1 className="text-center fw-bold mt-4">Qualifications</h1>
-    <p className="lead text-center">I have a Bachelor's in Journalism which gives me an excellent command of the English Language, a 140 TEFL certificate completed with I-to-I and this year I will begin my level 5 diploma in education and training. 
+    <p className="lead text-center">I have a Bachelor's in Journalism which gives me an excellent command of the English Language, a 140-hour TEFL certificate completed with I-to-I and this year I will begin my level 5 diploma in education and training. 
     Upon it’s completion I’ll then have the QTLS.  </p>
 </div>
 

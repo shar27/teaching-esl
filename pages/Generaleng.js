@@ -18,8 +18,8 @@ function Generaleng() {
             <div className="container">
             <h5 className="text-center text-primary fw-bold">Is conversation your weak point?</h5>
             <p className="lead text-center">Do you find yourself searching for words when having a conversation in English?
-            or do you find yourself not being able to understand idioms, phrasal verbs like "off the top of my head" or "Add an insult to injury."
-            if yes, then this is the course for you, there are no limits to topics and there is no course end date.</p>
+            Or do you find yourself not being able to understand idioms, phrasal verbs like "off the top of my head" or "Add an insult to injury"?
+            If yes, then this is the course for you. There are no limits to topics and there is no course end date.</p>
             <p className="lead text-center">Recommended for B1+</p>
             </div>
 

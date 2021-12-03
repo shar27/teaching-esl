@@ -20,9 +20,9 @@ function Businesseng() {
             <div className="container">
             <h5 className="text-center text-primary fw-bold">Is Business English your weak point?</h5>
             <p className="lead text-center">Do you find yourself searching for words when sitting in meetings in English?
-            or do you find yourself not being able to communicate clearly to your international clients. Do you
-            struggle to understand idioms and phrasal verbs like "We need a winner" or "get by."
-            if yes, then this is the course for you, we will follow a structured course that has an end point.</p>
+            Or do you find yourself not being able to communicate clearly to your international clients? Do you
+            struggle to understand idioms and phrasal verbs like "We need a winner" or "get by"?
+            If yes, then this is the course for you. We will follow a structured course that has an end point.</p>
             <p className="lead text-center">Recommended for B1+</p>
             </div>
 
