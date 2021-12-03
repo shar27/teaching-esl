@@ -13,6 +13,8 @@ import Testimonials from './components/Testimonials'
 import Intro from './components/Intro'
 import Dropbox from './components/Dropbox'
 import Test from './components/Test'
+import { InlineWidget } from "react-calendly";
+
 
 export default function Home() {
   return (
@@ -42,7 +44,9 @@ export default function Home() {
       <br/>
       <Testimonials/>
     <Stats/>
-    
+    <div>
+    <InlineWidget url="https://calendly.com/shariqahmed" />
+    </div>
       <Contact/>
     
     </div>
