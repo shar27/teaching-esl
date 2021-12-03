@@ -31,15 +31,16 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
-    <div className={styles.htag}>
+    
 
     <Intro/>
-    </div>
+    
 
     <br/>
     
-    
+    <div className={styles.htag}>
       <Test/>
+      </div>
     <Icons/>
     <IconsText/>
       <hr/>
