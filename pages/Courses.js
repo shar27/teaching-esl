@@ -41,7 +41,7 @@ class Courses extends React.Component {
                             <a className="btn btn-primary mb-4">Read more</a>
                         </Link>
                         </div>
-                        <div className="col-6 col-sm-12 col-lg-4 p-2 ms-3 me-2 border border-white shadow">
+                        <div className="col-6 col-sm-12 col-lg-4 p-2 ms-3 me-2 border border-white shadow mt-4">
                         <h1>Grammar</h1>
                         <p>Grammar course structured to help you finally understand key structures in the English language.</p>
                         <Link href="/Grammareng">
