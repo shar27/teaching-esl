@@ -20,6 +20,12 @@ function Pricing() {
 <br/>
 <br/>
 <h1 className="text-center fw-bold text-dark">Pay as you learn.</h1>
+<h2 className="text-center fw-bold text-dark">Single lessons can be booked through the calendar on the home page.</h2>
+<div className="d-flex justify-content-center">
+<Link href="/#contact">
+<a className="btn btn-primary text-white fw-bold">Click here</a>
+</Link>
+</div>
 <br/>
 <div className="container d-flex justify-content-center mt-4  border border-white shadow ">
 <div className="row">
