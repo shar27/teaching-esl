@@ -17,9 +17,9 @@ function Customeng() {
             <h1 className="text-center fw-bold text-primary">Custom English</h1>
             <h3 className="text-center fw-bold text-primary">What does it mean?</h3>
             <div className="container">
-            <h5 className="text-center text-primary fw-bold">Are you interested learning the english for something specific?</h5>
+            <h5 className="text-center text-primary fw-bold">Are you interested learning English for something specific?</h5>
             <p className="lead text-center">Perhaps there is a topic that you are interested in, for example: 'Emotional intelligence', 
-            'Science' or 'IT'. Then this is the course for you. You pick the topic and you bring your topic to the lesson and we work our way through it.
+            'Science' or 'IT'. Then this is the course for you. You pick the topic and you bring your topic to the lesson and we can work our way through it.
            </p>
             <p className="lead text-center">Recommended for B2+ students</p>
             </div>
