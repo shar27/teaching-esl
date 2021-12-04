@@ -31,7 +31,7 @@ export default function Home() {
       </div>
       <Nav />
       <Bgimg />
-
+    
       <div className="container mt-0">
         <div className="row">
           <div className="col-sm-12 col-lg-6 p-2 border border-white shadow text-center d-flex justify-content-start ">
@@ -51,7 +51,7 @@ export default function Home() {
               Learn English online with a British native speaker
             </h1>
             <br/>
-            <p className="text-start fw-bold lead col-sm-12 mt-4">
+            <p className="text-center fw-bold lead col-sm-12 mt-4">
               Learning with a native speaker is crucial to taking your
               understanding to the next level. Working with a native is far
               different as the only common language we have is English and that
@@ -84,11 +84,9 @@ export default function Home() {
             />
           </div>
           <div className="col-lg-6 col-sm- 4 text-center border border-white shadow  ">
-            <br />
-            <br />
-            <br />
-            <br />
-            <h1 className="text-center display-5">
+           
+            
+            <h1 className="text-center display-5 mt-4">
               Private lessons for children.
             </h1>
             <p className="lead p-2 col-sm-12 fw-bold  ">
@@ -101,7 +99,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      
       <br />
 
       <div className={styles.htag}>
