@@ -61,7 +61,7 @@ export default function Home() {
           
           <div className="col-sm-12 col-lg-12 border border-white shadow me-2 ">
             <h1 className="text-center mt-4 ">
-              <span class="badge bg-danger">New </span>Free proofreading from a
+              <span class="badge bg-danger m-4">New </span>Free proofreading from a
               British native speaker.
             </h1>
 

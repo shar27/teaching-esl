@@ -29,7 +29,7 @@ export default function Dropbox() {
                       multiselect={true}
                       extensions={['.mp4','.pdf', '.docx', '.mp3', '.png', '.jpg']}
                       >
-        <button className="btn btn-warning text-white fw-bold">Upload or Choose Files</button>
+        <button className="btn btn-primary text-white fw-bold">Upload or Choose Files</button>
         <div className="dropbox"></div>
         <br/><br/>
         

@@ -33,7 +33,7 @@ function Pricing() {
         width = "300"
         height ="220"
     />
-    <h6 className="card-subtitle mb-2 ms-4 text-muted">30 minutes</h6>
+    <h6 className="card-subtitle mb-2 ms-4 text-muted text-center">30 minutes</h6>
     <ul className="list-unstyled">
         <li>World class teacher</li>
         <li>Flexible schedule</li>
@@ -53,7 +53,7 @@ function Pricing() {
         width = "200"
         height ="200"
     />
-    <h6 className="card-subtitle mb-2 ms-4 text-muted">60 minutes</h6>
+    <h6 className="card-subtitle mb-2 ms-4 text-muted text-center">60 minutes</h6>
     <ul className="list-unstyled">
         <li>World class teacher</li>
         <li>Flexible schedule</li>
@@ -74,7 +74,7 @@ function Pricing() {
         width = "200"
         height ="200"
     />
-    <h6 className="card-subtitle mb-2 ms-4 text-muted">60 minutes</h6>
+    <h6 className="card-subtitle mb-2 ms-4 text-muted text-center">60 minutes</h6>
     <ul className="list-unstyled">
         <li>World class teacher</li>
         <li>Flexible schedule</li>
