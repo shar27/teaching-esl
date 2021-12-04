@@ -9,13 +9,13 @@ import Dropbox from './Dropbox'
 
 function Intro() {
     return (
-        <div className="container">
+        <div className="container mt-0">
         <div className="row">
         <div className="col-sm-12 col-lg-6 p-2 border border-white shadow text-center d-flex justify-content-start ">
         <h1 className="text-start fw-bold  ">Learn English online with a British native speaker</h1>
         
            <Image
-           
+            className="rounded-pill"
             src="/lesson.jpg"
             width="900"
             height="900"  
@@ -53,6 +53,7 @@ function Intro() {
  <div className="col-sm-12 col-lg-6 p-2 border border-white shadow text-center d-flex justify-content-start ">
  <h1 className="text-start fw-bold">Private lessons for children.</h1>            
            <Image
+           className="rounded-pill"
               src="/kidlearn.jpg"
               width= "900"
               height= "900"
