@@ -13,7 +13,7 @@ function Test() {
       />
       </Head>
       
-        <div className="container text-center border border-white shadow mb-4">
+        <div className="container text-center  mb-4">
             
            <FadeIn delay="50">
            <p className="lead fw-bold text-white"> Free English test here</p>
