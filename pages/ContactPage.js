@@ -40,10 +40,10 @@ function ContactPage() {
         messages = {
     {
       sending: "Sending...",
-      success: "Thank you for subscribing!",
+      success: "Thank you for your email, I'll be in touch soon!",
       error: "An unexpected internal error has occurred.",
       empty: "You must write an e-mail.",
-      duplicate: "Too many subscribe attempts for this email address",
+      
       button: "Send!"
     }
   }
