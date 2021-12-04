@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import Nav from "./components/Nav";
-import Contact from "./Contact";
+import Contact from "./components/Contact";
 import Logo from "./components/Logo";
 import Bgimg from "./components/Bgimg";
 import Icons from "./components/Icons";
@@ -40,8 +40,8 @@ export default function Home() {
             <Image
               className={styles.introimageone}
               src="/lesson.jpg"
-              width="900"
-              height="900"
+              width="800"
+              height="800"
             />
           </div>
           
@@ -118,7 +118,9 @@ export default function Home() {
         <Stats />
       </div>
 
-      <InlineWidget url="https://calendly.com/shariqahmed" />
+      <InlineWidget url="https://calendly.com/shariqahmed"
+      width="300"
+      height="300" />
       <div>
         <Contact />
       </div>

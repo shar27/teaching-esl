@@ -30,12 +30,12 @@ function Nav() {
  </li>
   <li className="nav-item">
   <Link href="/Pricing"> 
-    <a className="nav-link fw-bold m-2 p-1   text-primary" >Pricing</a>
+    <a className="nav-link fw-bold m-2 p-1 text-primary" >Pricing</a>
   </Link>
   </li>
   <li className="nav-item">
-  <Link href="/#contact"> 
-    <a className="nav-link fw-bold m-2 p-1   text-primary">Contact</a>
+  <Link href="/ContactPage"> 
+    <a className="nav-link fw-bold m-2 p-1  text-primary">Contact</a>
     </Link>
  </li>
 </ul>

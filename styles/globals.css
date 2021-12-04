@@ -18,3 +18,13 @@ a {
 .containerone {
   background-color: red;
 }
+
+input {
+  border-radius:none;
+  width: 200px;
+}
+
+.contactform {
+  color: blue;
+  button: blue;
+}
