@@ -11,10 +11,7 @@ function ContactPage() {
         <Nav/>
         <div className="d-flex justify-content-center border border-white mt-4 col-12 col-sm-12 col-lg-12 input-group">
         <Mailchimp
-        action={`https://${process.env.MAILCHIMP_PUBLIC_USERNAME}
-        .${process.env.MAILCHIMP_PUBLIC_DOMAIN}
-        .list-manage.com/subscribe/post?u=${process.env.MAILCHIMP_PUBLIC_POST};
-        id=${process.env.MAILCHIMP_PUBLIC_ID}`}
+        action={`https://${process.env.NEXT_PUBLIC_MAILCHIMP_PUBLIC_USERNAME}.${process.env.NEXT_PUBLIC_MAILCHIMP_PUBLIC_DOMAIN}.list-manage.com/subscribe/post?u=${process.env.NEXT_PUBLIC_MAILCHIMP_PUBLIC_POST}&amp;id=${process.env.NEXT_PUBLIC_MAILCHIMP_PUBLIC_ID}`}
         fields={[
           
             {

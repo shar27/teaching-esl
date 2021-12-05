@@ -13,7 +13,7 @@ function Bgimg() {
     return (
         <div>
 <ReactPlayer 
-   priority
+   priority="true"
    autoPlay 
    loop
    muted
