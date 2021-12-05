@@ -40,8 +40,8 @@ const slideImages = [
     },
     {
       url: '/class.png',
-      caption: '"In such a short time I have learnt a lot."',
-      source: 'Mikolaj, from Poznan.',
+      caption: '"Thank you for helping me with my confidence and pronunciation"',
+      source: 'Rafael, from Sao Paulo.',
       rating: '⭐⭐⭐⭐⭐'
     },
     {
