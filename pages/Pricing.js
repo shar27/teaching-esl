@@ -36,8 +36,8 @@ function Pricing() {
   <div className="card-body">
     <Image
         src="/phone.png"
-        width = "300"
-        height ="220"
+        width = "200"
+        height ="200"
     />
     <h6 className="card-subtitle mb-2 ms-4 text-muted text-center">30 minutes</h6>
     <ul className="list-unstyled">
