@@ -14,7 +14,7 @@ function ContactPage() {
         <h1 className="display-5 text-center">Got a question?</h1>
         <h3 className="text-center">Enter your details below and i'll be in touch.</h3>
         </div>
-        <div className="d-flex justify-content-center border border-white mt-4 col-12 col-sm-12 col-lg-12 input-group">
+        <div id= "#my-hubspot-form">
         
         <Mailchimp
         
@@ -27,18 +27,27 @@ function ContactPage() {
             type: 'email',
             required: true
           },
-            {
-            name: 'First name',
-            placeholder: 'First name',
+          {
+            name: 'FIRSTNAME',
+            placeholder: 'First Name',
             type: 'text',
             required: true
-            },
-            {
-            name: 'Last name',
-            placeholder: 'Last name',
+          },
+          {
+            name: 'LASTNAME',
+            placeholder: 'Last Name',
             type: 'text',
             required: true
-            }
+          },
+
+          {
+            name: 'TEXTBOX',
+            placeholder: 'Write your message here.',
+            type: 'text',
+            required: true
+          }
+
+            
            
             
         ]}

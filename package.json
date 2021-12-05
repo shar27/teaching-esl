@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aaronhayes/react-use-hubspot-form": "^2.1.0",
     "@apollo/client": "^3.5.5",
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
