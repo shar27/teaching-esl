@@ -1,8 +1,11 @@
 import React from 'react'
-import CookieConsent from "react-cookie-consent";
+import CookieConsent, { Cookies, resetCookieConsentValue } from "react-cookie-consent";
 
 
-function Cookies() {
+function CookiesConsent() {
+    
+    console.log(resetCookieConsentValue());
+
     return (
         <div>
 <CookieConsent
@@ -35,4 +38,4 @@ onAccept={(acceptedByScrolling) => {
     )
 }
 
-export default Cookies
+export default CookiesConsent
