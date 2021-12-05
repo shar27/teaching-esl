@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 function Logo() {
     return (
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center mt-4">
     <Image 
-     src="/teachinglogo.png"
-     width="225"
-     height="225"
+     src="/logo.png"
+     width="200"
+     height="100"
    />
         </div>
     )
