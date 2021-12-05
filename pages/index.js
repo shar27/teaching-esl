@@ -10,10 +10,11 @@ import IconsText from "./components/IconsText";
 import Quote from "./components/Quote";
 import Stats from "./components/Stats";
 import Testimonials from "./components/Testimonials";
-
+import CountDown from './components/CountDown'
 import Dropbox from "./components/Dropbox";
 import Test from "./components/Test";
 import { InlineWidget } from "react-calendly";
+import Cookies from './components/Cookies'
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <Logo />
       </div>
       <Nav />
+     
       <Bgimg />
     
       <div className="container mt-0">
@@ -123,6 +125,7 @@ export default function Home() {
       height="300" />
       <div>
         <Contact />
+        <Cookies/>
       </div>
     </div>
   );
