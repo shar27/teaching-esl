@@ -24,10 +24,60 @@ const slideImages = [
       caption: '"Each lesson is just a big pleasure.I really like your ideas for interesting work and all material which you usually choose to work with. I got to know that I can speak in English for every topic and I can see a huge progress in my language abilities and speking confidence what is priceless for me."',
       source: 'Joanna, from Poznan.',
       rating: '⭐⭐⭐⭐⭐'
-    },  {
+    },  
+    
+    {
       url: '/class.png',
       caption: '"In such a short time I have learnt a lot."',
       source: 'Mikolaj, from Poznan.',
+      rating: '⭐⭐⭐⭐⭐'
+    },
+    {
+      url: '/class.png',
+      caption: '"very satisfy，excellent"',
+      source: 'Sullen, from Suzhou.',
+      rating: '⭐⭐⭐⭐⭐'
+    },
+    {
+      url: '/class.png',
+      caption: '"In such a short time I have learnt a lot."',
+      source: 'Mikolaj, from Poznan.',
+      rating: '⭐⭐⭐⭐⭐'
+    },
+    {
+      url: '/class.png',
+      caption: '"I really enjoyed talking with you! Thank you very much for your patience in teaching me this."',
+      source: 'Kota, from Tokyo.',
+      rating: '⭐⭐⭐⭐⭐'
+    },
+    {
+      url: '/class.png',
+      caption: '" it was an amazing session. Nice to meet you dude 🤘"',
+      source: 'Madhav, from Mumbai.',
+      rating: '⭐⭐⭐⭐⭐'
+    },
+    {
+      url: '/class.png',
+      caption: '"Thank you for teaching me today. I appreciate that I enjoyed talking with you and it made me relax."',
+      source: 'Emi, from Kyoto.',
+      rating: '⭐⭐⭐⭐⭐'
+    },
+    {
+      url: '/class.png',
+      caption: '"I enjoyed Shars class a lot!!!"',
+      source: 'Marvin, from Shenzhen.',
+      rating: '⭐⭐⭐⭐⭐'
+    },
+    {
+      url: '/class.png',
+      caption: '"I am satisfied with this class. Thank you so much for your teaching."',
+      source: 'Mandy, from Wuhan.',
+      rating: '⭐⭐⭐⭐⭐'
+    },
+    {
+      url: '/class.png',
+      caption: '"Great class!"',
+      source: 'Pan, from Chengdu.',
       rating: '⭐⭐⭐⭐⭐'
     }
  
