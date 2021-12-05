@@ -2,6 +2,7 @@ import React from 'react'
 import Mailchimp from 'react-mailchimp-form'
 import Logo from './components/Logo'
 import Nav from './components/Nav'
+import GDPR from './components/GDPR'
 
 function ContactPage() {
     return (
@@ -58,7 +59,9 @@ function ContactPage() {
   }
   className="contactform"
         />
+
         </div>
+        <GDPR/>
         </div>
     )
 }

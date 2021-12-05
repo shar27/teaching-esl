@@ -6,8 +6,8 @@ function Logo() {
         <div className="d-flex justify-content-center mt-4">
     <Image 
      src="/logo.png"
-     width="200"
-     height="100"
+     width="220"
+     height="150"
    />
         </div>
     )

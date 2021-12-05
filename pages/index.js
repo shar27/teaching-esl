@@ -14,6 +14,7 @@ import CountDown from './components/CountDown'
 import Dropbox from "./components/Dropbox";
 import Test from "./components/Test";
 import { InlineWidget } from "react-calendly";
+import Footer from './components/Footer'
 import CookiesConset from './components/Cookies'
 
 export default function Home() {
@@ -125,6 +126,10 @@ export default function Home() {
       height="300" />
       <div>
         <Contact />
+        <div className={styles.container}>
+        <Footer/>
+        </div>
+
         <CookiesConset/>
       </div>
     </div>
