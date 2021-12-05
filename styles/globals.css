@@ -20,11 +20,29 @@ a {
 }
 
 input {
-  border-radius:none;
+  border-color: #00008B;
   width: 200px;
+  height: 30px;
+  padding: 20px;
+}
+
+button {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  color: white;
+  font-weight: bold;
+  border: solid 3px;
+  display: flex;
+  justify-content: center;
+  
+  
+  
 }
 
 .contactform {
-  color: blue;
-  button: blue;
+  display: grid;
+  justify-content: center;
+  
+  padding: 100px;
+  
+  
 }

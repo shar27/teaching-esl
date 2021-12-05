@@ -9,8 +9,14 @@ function ContactPage() {
         <Logo/>
 
         <Nav/>
+        <div>
+        <h1 className="display-5 text-center">Got a question?</h1>
+        <h3 className="text-center">Enter your details below and i'll be in touch.</h3>
+        </div>
         <div className="d-flex justify-content-center border border-white mt-4 col-12 col-sm-12 col-lg-12 input-group">
+        
         <Mailchimp
+        
         action={`https://${process.env.NEXT_PUBLIC_MAILCHIMP_PUBLIC_USERNAME}.${process.env.NEXT_PUBLIC_MAILCHIMP_PUBLIC_DOMAIN}.list-manage.com/subscribe/post?u=${process.env.NEXT_PUBLIC_MAILCHIMP_PUBLIC_POST}&amp;id=${process.env.NEXT_PUBLIC_MAILCHIMP_PUBLIC_ID}`}
         fields={[
           
@@ -29,6 +35,12 @@ function ContactPage() {
             {
             name: 'Last name',
             placeholder: 'Last name',
+            type: 'text',
+            required: true
+            },
+            {
+            name: 'text',
+            placeholder: 'write your text here',
             type: 'text',
             required: true
             },
