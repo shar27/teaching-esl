@@ -26,7 +26,7 @@ function About() {
         <h1 className="fw-bold display-5 col-sm-12 text-center mt-4">About me</h1>
         <p className="lead mt-4 text-center">Hello and welcome to my site. My name is Shar and I am from the UK. I was born and raised in a small
     town called High Wycombe. Currently I am based in Poznan, Poland. You see, I love travelling and I love exploring the unknown.
-    If you already can't tell, a byproduct of travelling is learning a new language, a new way of thinking and an opportunity for growth.
+    a byproduct of travelling is learning a new language, a new way of thinking and an opportunity for growth.
     To date, I have visited 27 countries and I have lived in 3 of them.</p>
 
     

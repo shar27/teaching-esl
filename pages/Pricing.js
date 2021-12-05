@@ -20,7 +20,7 @@ function Pricing() {
 <br/>
 <br/>
 <h1 className="text-center fw-bold text-dark">Pay as you learn.</h1>
-<h2 className="text-center fw-bold text-dark">Single lessons can be booked through the calendar on the home page.</h2>
+<h2 className="text-center fw-bold text-dark">Single lesson's can be booked through the calendar on the home page.</h2>
 <div className="d-flex justify-content-center">
 <Link href="/#contact">
 <a className="btn btn-primary text-white fw-bold">Click here</a>
@@ -45,7 +45,7 @@ function Pricing() {
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
         <li>Free cancellation within 24 hours</li>
-        <Link href="https://buy.stripe.com/5kAcQ0aZJfyGaAwaEH">
+        <Link href="https://buy.stripe.com/28o5ny7NxdqydMIdQY">
         <a className="btn btn-warning fw-bold text-white mt-4">Pay now</a>
         </Link>
     </ul>
@@ -65,7 +65,7 @@ function Pricing() {
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
         <li>Free cancellation within 24 hours</li>
-        <Link href="https://buy.stripe.com/fZecQ05Fp0DM6kgfZ3">
+        <Link href="https://buy.stripe.com/fZe6rC0l51HQfUQ007">
         <a className="btn btn-warning fw-bold text-white mt-4">Pay now</a>
         </Link>
     </ul>
@@ -86,7 +86,7 @@ function Pricing() {
         <li>Flexible schedule</li>
         <li>Pay as you go</li>
         <li>Free cancellation within 24 hours</li>
-        <Link href="https://buy.stripe.com/28o3fq0l5euCeQMdQU">
+        <Link href="https://buy.stripe.com/00gg2cc3NeuC384aEN">
         <a className="btn btn-warning fw-bold text-white mt-4">Pay now</a>
         </Link>
     </ul>
