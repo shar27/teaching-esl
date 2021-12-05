@@ -2,7 +2,7 @@ import React from 'react'
 import Mailchimp from 'react-mailchimp-form'
 import Logo from './components/Logo'
 import Nav from './components/Nav'
-import GDPR from './components/GDPR'
+
 
 function ContactPage() {
     return (
@@ -38,13 +38,8 @@ function ContactPage() {
             placeholder: 'Last name',
             type: 'text',
             required: true
-            },
-            {
-            name: 'text',
-            placeholder: 'write your text here',
-            type: 'text',
-            required: true
-            },
+            }
+           
             
         ]}
         messages = {
@@ -61,7 +56,7 @@ function ContactPage() {
         />
 
         </div>
-        <GDPR/>
+        
         </div>
     )
 }
