@@ -10,19 +10,8 @@ function CookiesConsent() {
         <div>
 <CookieConsent
 
-enableDeclineButton
-  onDecline={() => {
-    alert("nay!");
-  }}
 
-onAccept={(acceptedByScrolling) => {
-    if (acceptedByScrolling) {
-      // triggered if user scrolls past threshold
-      alert("Accept was triggered by user scrolling");
-    } else {
-      alert("Accept was triggered by clicking the Accept button");
-    }
-  }}
+
 
   location="bottom"
   buttonText="Sure man!!"
