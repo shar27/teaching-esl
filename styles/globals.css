@@ -27,12 +27,13 @@ input {
 }
 
 button {
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  background: blue;
   color: white;
   font-weight: bold;
   border: solid 3px;
   display: flex;
   justify-content: center;
+  padding: 5px;
   
   
   
