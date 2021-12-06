@@ -25,8 +25,7 @@ export default function Home() {
         <meta
         name="google-site-verification" 
         content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
-          name="description"
-          content="Learn english online with a British native speaker"
+         
         />
         <link rel="icon" href="/teachinglogo.png" />
       </Head>
