@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className={styles.mainbackground}>
       <Head>
-        <title>Home</title>
+        <title>Teacher-ESL</title>
         <meta
         name="google-site-verification" 
         content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
@@ -42,6 +42,7 @@ export default function Home() {
             
 
             <Image
+            alt="lesson"
               className={styles.introimageone}
               src="/lesson.jpg"
               width="800"
@@ -85,6 +86,7 @@ export default function Home() {
               src="/kidlearn.jpg"
               width="900"
               height="900"
+              alt="lessons"
             />
           </div>
           <div className="col-lg-6 col-sm- 4 text-center border border-white shadow  ">
