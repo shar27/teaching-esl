@@ -2,7 +2,7 @@ import React from 'react'
 import Mailchimp from 'react-mailchimp-form'
 import Logo from './components/Logo'
 import Nav from './components/Nav'
-
+import CookieConsent, { Cookies, resetCookieConsentValue } from "react-cookie-consent";
 
 function ContactPage() {
     return (
@@ -45,10 +45,8 @@ function ContactPage() {
             placeholder: 'Write your message here.',
             type: 'text',
             required: true
-          }
-
-            
-           
+          },
+          
             
         ]}
         messages = {
@@ -63,6 +61,22 @@ function ContactPage() {
   }
   className="contactform"
         />
+        <p className="lead text-center">By hitting send you consent to me using your information for direct marketing purposes.<br/>Note: Your information will never be shared with anyone else.</p>
+        <CookieConsent
+
+
+
+
+location="bottom"
+buttonText="Sure man!!"
+cookieName="myAwesomeCookieName2"
+style={{ background: "#2B373B" }}
+buttonStyle={{ color: "white", fontSize: "13px", backgroundColor: "blue" }}
+expires={150}
+>
+In compliance with GDPR do you accept my terms and privacy policy? And, do you accept that I may email you for marketing purposes?{" "}
+
+</CookieConsent>
 
         </div>
         
