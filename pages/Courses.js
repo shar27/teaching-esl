@@ -36,6 +36,7 @@ class Courses extends React.Component {
                         <div className="col-6 col-sm-12 col-lg-4 p-2 ms-3 me-2 border border-white shadow mb-4">
                         <h1>Business English</h1>
                         <Image
+                            priority="true"
                             src="/business.jpg"
                             width="400"
                             height="400"
