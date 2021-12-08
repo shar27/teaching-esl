@@ -86,6 +86,7 @@ const slideImages = [
   const Testimonials = () => {
       return (
         <div className="slide-container container text-center text-dark mb-4 ">
+        
           <Slide>
            {slideImages.map((slideImage, index)=> (
               <div className="each-slide mt-4" key={index}>

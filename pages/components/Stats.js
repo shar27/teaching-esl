@@ -7,7 +7,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 function Stats() {
     return (
-        <div className=" text-white">
+        <div className=" text-dark">
             <h1 className="fw-bold text-center me-4  mb-4">My results</h1>
             <div className="container text-center ">
                 <div className="row">

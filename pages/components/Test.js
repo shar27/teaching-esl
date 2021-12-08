@@ -16,8 +16,8 @@ function Test() {
         <div className="container text-center  mb-4">
             
            <FadeIn delay="50">
-           <p className="lead fw-bold text-white"> Free English test here</p>
-           <p className="lead fw-bold text-white mt-4">A quick free 10 minute test that will help you determine your English level. </p>
+           <p className="lead fw-bold text-dark"> Free English test here</p>
+           <p className="lead fw-bold text-dark mt-4">A quick free 10 minute test that will help you determine your English level. </p>
             <Link href= "https://app.tracktest.eu/registration?dh=teacheresl&embed=1"> 
             <a className="btn btn-primary mb-4">Click here</a>
             </Link>
