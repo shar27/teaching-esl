@@ -34,6 +34,11 @@ function Nav() {
   </Link>
   </li>
   <li className="nav-item">
+  <Link href="/Posts"> 
+    <a className="nav-link fw-bold m-2 p-1  text-primary">Blog</a>
+    </Link>
+ </li>
+  <li className="nav-item">
   <Link href="/ContactPage"> 
     <a className="nav-link fw-bold m-2 p-1  text-primary">Contact</a>
     </Link>

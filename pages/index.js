@@ -30,6 +30,7 @@ export default function Home() {
         <link rel="icon" href="/teachinglogo.png" />
       </Head>
       <div>
+      
         <Logo />
       </div>
       <Nav />
