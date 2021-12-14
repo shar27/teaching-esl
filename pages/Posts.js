@@ -15,7 +15,8 @@ const res = await client.getEntries({content_type: 'posts'})
 
 return {
   props: {
-    posts: res.items
+    posts: res.items ,
+    revalidate: 1
   }
 }
 

@@ -33,7 +33,8 @@ export async function getStaticProps({params}) {
   })
 
 return {
-  props: {posts: items[0]}
+  props: {posts: items[0]},
+  revalidate: 1
 }
 
 }
@@ -54,7 +55,7 @@ export default function BlogPosts({ posts}) {
                 height={featuredImage.fields.file.details.image.height}
             />
         </div>
-        <div className='text-start container'>
+        <div className='text-start container lead'>
             {documentToReactComponents(information)}
             <div className='container  text-center mb-5'>
               <Link href="/Posts">
