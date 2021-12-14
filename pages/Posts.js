@@ -7,8 +7,8 @@ import Logo from './components/Logo'
 export async function getStaticProps() {
 
   const client = createClient({
-    space: 'jxldfokvm8mx',
-    accessToken: '5hp4V3bBnRAZlG-v_CfuQzvMUlvekhUhX6R8Cx4FdKI',
+    space: process.env.NEXT_PUBLIC_CONTENTFUL_ID,
+    accessToken: process.env.NEXT_PUBLIC_CONTENTFUL_TOKEN,
   })
 
 const res = await client.getEntries({content_type: 'posts'})
