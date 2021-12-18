@@ -16,10 +16,24 @@ import Test from "./components/Test";
 import { InlineWidget } from "react-calendly";
 import Footer from './components/Footer'
 import CookiesConset from './components/Cookies'
+import Script from 'next/script'
 
 export default function Home() {
+  
   return (
     <div className={styles.mainbackground}>
+      
+      <Script
+  strategy="loadScript"
+  dangerouslySetInnerHTML={{
+    __html: `
+    (function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.
+    src=o;
+    j.dataset.sumoSiteId=${process.env.NEXT_PUBLIC_SUMO_ID}';
+    v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
+  `
+  }}
+/>
       <Head>
         <title>Teacher-ESL</title>
         <meta

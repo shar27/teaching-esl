@@ -5,7 +5,7 @@ import Logo from './Logo'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 
 export default function BlogPosts({post }) {
-   
+   console.log(post);
    const {title, information,slug , thumbnail} = post.fields
     
     return (
