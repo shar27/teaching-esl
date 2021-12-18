@@ -53,6 +53,7 @@
     "react-slick": "^0.28.1",
     "react-slideshow-image": "^3.6.0",
     "sass": "^1.44.0",
+    "sitemap": "^7.0.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3"
   },
