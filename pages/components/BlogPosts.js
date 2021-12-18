@@ -1,4 +1,4 @@
-/* import Link from 'next/link'
+import Link from 'next/link'
 import Image from 'next/image'
 import Nav from './Nav'
 import Logo from './Logo'
@@ -7,7 +7,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 export default function BlogPosts({post }) {
    
    const {title, information,slug , thumbnail} = post.fields
-    *
+    
     return (
         <div>
         
@@ -39,4 +39,3 @@ export default function BlogPosts({post }) {
         </div>
     )
 }
-  */
