@@ -13,12 +13,7 @@ export default function BlogPosts({post }) {
         
       
             <div className='container w-50 h-25 mt-4'>
-                <Image
-                    className='nav' 
-                    src={'https:' + thumbnail.fields.file.url}
-                    width={thumbnail.fields.file.details.image.width}
-                    height={thumbnail.fields.file.details.image.height}
-                />
+               
             </div>
             <div>
                 <div>
