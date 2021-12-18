@@ -12,7 +12,7 @@ function About() {
         <Head>
         <title>About me</title>
         <meta name="description" content="A little bit about me and what I offer" />
-        <link rel="icon" href="/teachinglogo.png" />
+        <link rel="icon" src="/teachinglogo.png" />
         </Head>
         <Logo/>
             <Nav/>
