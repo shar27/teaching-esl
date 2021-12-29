@@ -1,5 +1,6 @@
 import React from 'react'
 import Mailchimp from 'react-mailchimp-form'
+import FacebookIcon from '@mui/icons-material/Facebook';
 import Logo from './components/Logo'
 import Nav from './components/Nav'
 import CookieConsent, { Cookies, resetCookieConsentValue } from "react-cookie-consent";
@@ -82,6 +83,8 @@ In compliance with GDPR do you accept my terms and privacy policy? And, do you a
 </CookieConsent>
 
         </div>
+
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0000ff" fill-opacity="1" d="M0,96L120,106.7C240,117,480,139,720,128C960,117,1200,75,1320,53.3L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
 
         </div>
