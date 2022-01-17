@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Nav from './Nav'
 import Logo from './Logo'
 
-export default function RecipeCard({ post }) {
+export default function Allposts({ post }) {
   const { title, slug, thumbnail } = post.fields
 
   return (
