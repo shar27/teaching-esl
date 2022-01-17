@@ -75,7 +75,7 @@ sx={{
            <Fade right>
           <div className="mt-4">
          <Image
-         className="rounded-md"
+         className="rounded-md "
            src="/tablet.jpg"
            width={500}
            height={400}
@@ -94,32 +94,27 @@ sx={{
       width="50"
       height="50" />
 
-<Fade left>
-<div className="grid grid-cols-2 mb-20 mt-20 gap-4 bg-white ">
+<div className="grid grid-cols-2 md:grid-rows-2 lg:grid-rows-1 gap-4">
+
+<p className="text-4xl text-center font-bold text-white font-serif mt-20">
+
+<br/>I repeat, if you want to speak CONFIDENTLY and you want to do it NOW.<br/> Put that book, <br/>DOWN!</p>
+
 
 <Image
-         className="rounded-full"
+         className="rounded-md"
            src="/pub.jpg"
-           width={400}
+           width={500}
            height={400}
 
          />
-         
-<div>
-
-  <p className="text-4xl text-center font-bold text-black font-serif mt-20">
-
-  <br/>I repeat, if you want to speak CONFIDENTLY and you want to do it NOW.<br/> Put that book, <br/>DOWN</p>
   
 </div>
 
-</div>
-</Fade>
 
-  <br/>
-  <br/> 
   
-  <div className="grid grid-cols-2 gap-2">
+  
+  <div className="grid grid-cols-2 gap-2 mt-20">
          <Test />
 <div className="border-2">
             <Dropbox />
@@ -140,19 +135,21 @@ sx={{
 
 
 <div className="text-center mt-20">
-    <p className="text-2xl font-bold text-white font-serif ">	I’m Shariq Ahmed, the owner of Teacher-ESL.<br/>
+    <p className="text-2xl font-bold text-white font-serif ">	I’m Shariq Ahmed, the owner <br/>of <br/>Teacher-ESL.<br/>
     <br/>
 I have travelled around the world and met 1000’s of foreign language speakers. During my travels I went to China and it was there where I met Mark. Mark was from France and spoke FLUENT Mandarin and FLUENT ENGLISH.   
-So, I asked Mark – how are you able to speak both languages so well? I said to him:  I’ve been studying Chinese for 6 months and I still feel like I can’t have a conversation.<br/>  Mark was just one of many fluent foreign language speakers. They didn’t have a particular talent for learning languages, they just had a good solid strategy. And, that’s when I realised the method for learning English is broken. 
+<br/> <br/>So, I asked Mark – how are you able to speak both languages so well? I said to him:  I’ve been studying Chinese for 6 months and I still feel like I can’t have a conversation.<br/><br/>  Mark was just one of many fluent foreign language speakers. They didn’t have a particular talent for learning languages, they just had a good solid strategy. And, that’s when I realised the method for learning English is broken. 
 <br/>
-<p>Too much time is spent READING and WRITING with only simple conversational topics that leave you frustrated. I have met many students who have been learning English for years and still are unable to have a fluent conversation. They have all confirmed for me that the strategy is not right and it’s why when they get to real world situation they are always feeling CONFUSED and STRESSED.
-</p><br/><p>It was that frustration and the stress both I and countless other students that I have met is why I created my own course. A TRIED and TESTED course that is proven to get you from ‘umming and ahing’ to speak fluently and confidently. If you don’t believe me, check out what my previous clients have had to say.
-<br/></p>In fact, the course was so successful that I decided to create it for everyone. Now, I can help students everywhere in the world… and now it’s your turn.
+<p><br/><br/>Too much time is spent READING and WRITING with only simple conversational topics that leave you frustrated. I have met many students who have been learning English for years and still are unable to have a fluent conversation. They have all confirmed for me that the strategy is not right and it’s why when they get to real world situation they are always feeling CONFUSED and STRESSED.
+</p><br/><p>It was that frustration and the stress both I and countless other students that I have met is why I created my own course. A TRIED and TESTED course that is proven to get you from ‘umming and ahing’ to speaking fluently and confidently. If you don’t believe me, check out what my previous clients have had to say.
+<br/></p>In fact, the course was so successful that I knew I had to spead the word. Now, I can help students everywhere in the world… and now it’s your turn.
 
     <ul className="mt-20">    
     <li className="mt-20">I will teach you to speak English fluently to get better jobs, or to be involved in business meetings.</li>
     <li className="mt-20"> I will help you make friends wherever you go with some of my best kept secrets.</li>
-<li>I will teach you how to become friends with family members.</li>
+
+    
+    <li className="mt-20">I will teach you how to become friends with family members.</li>
 </ul>
 
         </p>
@@ -162,15 +159,16 @@ So, I asked Mark – how are you able to speak both languages so well? I said to
       </div>
         <Stats />
       
-   
+   <div className="mt-20">
       <InlineWidget
        id="calender"
        url="https://calendly.com/shariqahmed"
       width="300"
       height="300" />
+      </div>
       <div>
         <Contact />
-       
+       <Footer/>
         <CookiesConset/>
       </div>
     </div>
