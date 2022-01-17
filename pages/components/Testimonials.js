@@ -1,6 +1,8 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
+import Fade from 'react-reveal/Fade';
+
 
 const slideImages = [
     
@@ -85,16 +87,18 @@ const slideImages = [
   
   const Testimonials = () => {
       return (
-        <div className="slide-container container text-center text-dark mb-4 ">
-        
-          <Slide>
+        <div className="slide-container text-center text-dark mb-4 bg-black ">
+        <h1 className='text-6xl text-white font-bold font-serif mt-20'>Testimonials</h1>
+        <Fade top>
+ 
            {slideImages.map((slideImage, index)=> (
               <div className="each-slide mt-4" key={index}>
                 <div style={{'backgroundImage': `url(${slideImage.url})`}}>
                 <br/>
                 <br/>
-                  <span className="lead fw-bold">{slideImage.caption}</span>
-                  <p className="lead fw-bold">{slideImage.source}</p>
+                
+                  <span className="lead font-serif text-2xl font-bold text-white">{slideImage.caption}</span>
+                  <p className="lead font-serif text-2xl font-bold text-white">{slideImage.source}</p>
                   <p>{slideImage.rating}</p>
                   <br/>
                   <br/>
@@ -103,7 +107,7 @@ const slideImages = [
                 </div>
               </div>
             ))} 
-          </Slide>
+            </Fade>
         </div>
       )
   }

@@ -1,40 +1,40 @@
 import React from 'react'
 import {zoomIn} from 'react-animations'
 import CountUp from 'react-countup';
-
-import MailchimpSubscribe from "react-mailchimp-subscribe"
+import Fade from 'react-reveal/Fade'
 
 
 function Stats() {
     return (
-        <div className=" text-dark">
-            <h1 className="fw-bold text-center me-4  mb-4">My results</h1>
-            <div className="container text-center ">
-                <div className="row">
-                    <div className="col-sm-12 col-lg-4  rounded-top">
-                    <h1 className=" fw-bold mt-4">1000+</h1>
-                <p className=" text-lead fw-bold ">Students that I have worked with.</p>
-                <br/>
-                    </div>
-                    <div className="col-sm-12 col-lg-4  rounded-top">
-                <h1 className=" fw-bold mt-4">100% </h1>
-                <p className=" text-lead fw-bold ">Have said they felt progress after a couple of weeks.</p>
+        <div className='text-2xl sm:text-2xl md:text-3xl lg:text-5xl bg-black text-white' >
+        <Fade bottom>
+        <h1 className="font-bold text-center me-4  mb-4 text-4xl">My results</h1>
+        <div className='grid grid-rows-2 gap-2'>
+            
+            
+                   
+                    <h1 className="font-bold mt-4 text-center">1000+</h1>
+                <p className="text-center font-bold ">Students that I have worked with.</p>
                 
-                
-                    </div>
-                    <div className="col-sm-12 col-lg-4  rounded-top">
-                <h1 className=" fw-bold mt-4">100%</h1>
-                <p className=" text-lead fw-bold ">Have referred me to others.</p>
-                    </div>
-                    
                 </div>
+                <div>
+                    
+                <h1 className=" font-bold mt-4 text-center">100% </h1>
+                <p className=" text-center font-bold  ">Have said they felt progress after a couple of weeks.</p>
                 
-            </div>
-            <br/>
-                <br/>
-                <br/>
-                <br/>
-        </div>
+  </div>
+
+  <div>              
+                    
+                   
+                <h1 className=" font-bold mt-4 text-center">100%</h1>
+                <p className=" text-center font-bold ">Have referred me to others.</p>
+                   
+                    </div>
+                    </Fade>
+                </div>  
+           
+        
            )
 }
 

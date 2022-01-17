@@ -13,13 +13,14 @@ function Test() {
       />
       </Head>
       
-        <div className="container text-center  mb-4">
+        <div className="container text-center  mb-0 border-2">
             
            <FadeIn delay="50">
-           <p className="lead fw-bold text-dark"> Free English test here</p>
-           <p className="lead fw-bold text-dark mt-4">A quick free 10 minute test that will help you determine your English level. </p>
+           <p className="text-4xl font-bold text-white"> Free English test here</p>
+           <p className="text-4xl font-bold text-white mt-4 mb-4">A quick free 10 minute test that will help you determine your English level. </p>
+            <p className='text-2xl font-bold mb-4'>Don't forget to upload your results.</p>
             <Link href= "https://app.tracktest.eu/registration?dh=teacheresl&embed=1"> 
-            <a className="btn btn-primary mb-4">Click here</a>
+            <a className="rounded-md bg-blue-500 text-white p-2 font-bold mt-4">Click here</a>
             </Link>
     </FadeIn>
         </div>

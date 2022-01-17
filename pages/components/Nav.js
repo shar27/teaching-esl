@@ -8,26 +8,18 @@ function Nav() {
     <div>
   
 
-<ul  className="nav justify-content-center m-1 p-1 col-12 pe-auto ">
+<ul  className="nav flex justify-center text-black font-serif font-bold">
 <li className="nav-item">
   <Link  href="/">
     <a  className="nav-link fw-bold m-2 p-1  pe-auto text-primary">Home</a>
     </Link>
   </li>
   <li className="nav-item">
-  <Link  href="About">
+  <Link  href="#About">
     <a  className="nav-link fw-bold m-2 p-1  pe-auto text-primary">About me</a>
     </Link>
   </li>
   
-  <li className="nav-item">
-    <Link href="/Courses"> 
-    <a className="nav-link fw-bold m-2 p-1   text-primary">Courses</a>
-    </Link>
-  </li>
-  <li className="nav-item">
- 
- </li>
   <li className="nav-item">
   <Link href="/Pricing"> 
     <a className="nav-link fw-bold m-2 p-1 text-primary" >Pricing</a>

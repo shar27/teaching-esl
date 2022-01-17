@@ -5,29 +5,30 @@ import Image from 'next/image'
 function Icons() {
     return (
 
-<div className="d-flex justify-content-evenly col-sm-12 col-md-12">
+<div className="flex justify-evenly mt-20">
    
 
    <Image
-       src="/multidevice.png"
-       height="300"
-       width="300"
+   className='border-rounded'
+       src="/device.png"
+       height="200"
+       width="200"
    />
 
 <div className="mt-4 ">
 
 <Image
-       src="/freetime.png"
-       height="300"
-       width="300"
+       src="/calendar.png"
+       height="200"
+       width="200"
    />
    </div>
    
 
 <Image
-       src="/thumbs.png"
-       height="300"
-       width="300"
+       src="/rating.png"
+       height="200"
+       width="200"
    />
 
 
