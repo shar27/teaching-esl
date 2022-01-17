@@ -19,7 +19,11 @@ function Nav() {
     <a  className="nav-link fw-bold m-2 p-1  pe-auto text-primary">About me</a>
     </Link>
   </li>
-  
+  <li className="nav-item">
+  <Link href="/Blog"> 
+    <a className="nav-link fw-bold m-2 p-1 text-primary">Blog</a>
+  </Link>
+  </li>
   <li className="nav-item">
   <Link href="/Pricing"> 
     <a className="nav-link fw-bold m-2 p-1 text-primary" >Pricing</a>

@@ -7,19 +7,14 @@ import Logo from "./components/Logo";
 import Bgimg from "./components/Bgimg";
 import Icons from "./components/Icons";
 import IconsText from "./components/IconsText";
-import Quote from "./components/Quote";
-import Link from 'next/link';
 import Stats from "./components/Stats";
 import Testimonials from "./components/Testimonials";
-import CountDown from './components/CountDown'
 import Dropbox from "./components/Dropbox";
 import Test from "./components/Test";
 import { InlineWidget } from "react-calendly";
 import Footer from './components/Footer'
 import CookiesConset from './components/Cookies'
-import Script from 'next/script'
 import FacebookIcon from '@mui/icons-material/Facebook';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Fade from 'react-reveal/Fade'
 
 
@@ -27,6 +22,11 @@ export default function Home() {
   const hoveredStyle = {
     cursor: 'pointer'
   };
+
+
+  
+
+  
   
   return (
     <div className={styles.mainbackground}>

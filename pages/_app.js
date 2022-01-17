@@ -34,8 +34,8 @@ function MyApp({ Component, pageProps }) {
         dangerouslySetInnerHTML={{
             __html: `
         
-    adroll_adv_id = "${process.env.NEXT_PUBLIC_ADROLL};"
-    adroll_pix_id = ${process.env.NEXT_PUBLIC_ADROLL_PIX};
+    adroll_adv_id = ${process.env.NEXT_PUBLIC_ADROLL_ID};
+    adroll_pix_id = ${process.env.NEXT_PUBLIC_ADROLL_PIX_ID};
     adroll_version = "2.0";
 
     (function(w, d, e, o, a) {
