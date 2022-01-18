@@ -1,10 +1,10 @@
 import React from 'react'
-import Nav from './components/Nav'
+import Nav from '../components/components/Nav'
 import Image from 'next/dist/client/image'
 import Link from 'next/link'
 import Head from 'next/head'
-import Logo from './components/Logo'
-import Footer from './components/Footer'
+import Logo from '../components/components/Logo'
+import Footer from '../components/components/Footer'
 
 function Pricing() {
     return (

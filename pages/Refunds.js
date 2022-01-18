@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/dist/client/link'
-import Logo from './components/Logo'
-import Nav from './components/Nav'
-import Contact from './components/Contact'
+import Logo from '../components/components/Logo'
+import Nav from '../components//components/Nav'
+import Contact from '../components/components/Contact'
 
 
 function Refunds() {

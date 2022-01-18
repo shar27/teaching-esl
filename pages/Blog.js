@@ -1,7 +1,7 @@
 import { createClient } from 'contentful'
-import Posts from './components/Posts'
-import Nav from './components/Nav'
-import Logo from './components/Logo'
+import Posts from '../components/Posts'
+import Nav from '../components/components/Nav'
+import Logo from '../components/components/Logo'
 export async function getStaticProps() {
 
   const client = createClient({

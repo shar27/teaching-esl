@@ -1,8 +1,8 @@
 import React from 'react'
 import Mailchimp from 'react-mailchimp-form'
 import FacebookIcon from '@mui/icons-material/Facebook';
-import Logo from './components/Logo'
-import Nav from './components/Nav'
+import Logo from '../components/components/Logo'
+import Nav from '../components/components/Nav'
 import CookieConsent, { Cookies, resetCookieConsentValue } from "react-cookie-consent";
 import { useForm } from '@formspree/react';
 

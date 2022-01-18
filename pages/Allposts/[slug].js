@@ -1,8 +1,8 @@
 import { createClient } from 'contentful'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import Image from 'next/image'
-import Nav from '../components/Nav'
-import Logo from '../components/Logo'
+import Nav from '../../components/components/Nav'
+import Logo from '../../components/components/Logo'
 
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID,

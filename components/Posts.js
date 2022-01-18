@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Nav from './Nav'
-import Logo from './Logo'
+import Nav from './components/Nav'
+import Logo from './components/Logo'
 
 export default function Allposts({ post }) {
   const { title, slug, thumbnail } = post.fields
-
+console.log(post);
   return (
     
     
