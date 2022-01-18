@@ -27,9 +27,9 @@ function Pricing() {
   <div>
     <Image
     alt="something"
-        src="/phone.png"
-        width = "200"
-        height ="200"
+        src="/phoneles.png"
+        width = "300"
+        height ="300"
     />
     <h6 className="mb-2 ms-4  text-center">30 minutes</h6>
     <ul className="list-unstyled">
@@ -48,9 +48,9 @@ function Pricing() {
   <div>
     <Image
     alt="something"
-        src="/singlecall.png"
-        width = "200"
-        height ="200"
+        src="/singles.png"
+        width = "300"
+        height ="300"
     />
     <h6 className="card-subtitle mb-2 ms-4 text-muted text-center">60 minutes</h6>
     <ul className="list-unstyled">
@@ -70,9 +70,9 @@ function Pricing() {
   <div className="card-body">
     <Image
     alt="something"
-        src="/groupcall.png"
-        width = "200"
-        height ="200"
+        src="/vidcall.png"
+        width = "300"
+        height ="300"
     />
     <h6 className="mb-2 ms-4 text-center">60 minutes</h6>
     <ul className="list-unstyled">

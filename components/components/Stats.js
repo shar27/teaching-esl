@@ -34,7 +34,7 @@ function Stats() {
           <Fade left>
           <Image    
             
-            src="/118.png"
+            src="/teaching.png"
             width={500}
             height={500}
             alt="person"

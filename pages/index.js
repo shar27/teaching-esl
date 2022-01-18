@@ -159,6 +159,15 @@ export default function Home() {
               <p>
                 <br />
                 <br />
+                <div className="bg-clip contents">
+                <Image 
+                className="bg-blue-200"
+                  src="/slow.png"
+                  width={500}
+                  height={500}
+                  alt="slow"
+                />
+               </div><br/>
                 Too much time is spent READING and WRITING with only simple
                 conversational topics that leave you frustrated. I have met many
                 students who have been learning English for years and still are
@@ -180,23 +189,36 @@ export default function Home() {
               the word. Now, I can help students everywhere in the world… and
               now it’s your turn.
               <ul className="mt-20">
+              <div className="grid grid-rows-1">
                 <li className="mt-20">
                   I will teach you to speak English fluently to get better jobs,
                   or to be involved in business meetings.
                 </li>
-                <li className="mt-20">
-                  {" "}
+               
+                <li className="mt-20 flex  justify-center ">
+                
                   I will help you make friends wherever you go with some of my
                   best kept secrets.
+                  <li>
+                  I will teach you how to spend time with familes at events.
                 </li>
-
-                <li className="mt-20">
-                  I will teach you how to become friends with family members.
+                
                 </li>
+               
+                </div>
+                
               </ul>
             </p>
           </div>
-
+          <div className="flex justify-center">
+          <Image
+                  
+                  src="/prog.png"
+                  width={400}
+                  height={400}
+                  alt="prog"
+                />
+          </div>
           <div>
             <Testimonials />
           </div>
