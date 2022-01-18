@@ -5,7 +5,7 @@ import Logo from '../components/components/Logo'
 import Nav from '../components/components/Nav'
 import CookieConsent, { Cookies, resetCookieConsentValue } from "react-cookie-consent";
 import { useForm } from '@formspree/react';
-
+import Head from 'next/head'
 import {useState} from 'react'
 
 function ContactPage() {
@@ -14,6 +14,18 @@ function ContactPage() {
   
   return (
         <div>
+        <Head>
+        <title>Contact</title>
+        <meta
+        name="google-site-verification" 
+        content="contact page"
+         
+        />
+        <link rel="icon" href="/head.png" />
+ 
+
+      </Head>
+
         <Logo/>
 
         <Nav/>

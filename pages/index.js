@@ -16,7 +16,7 @@ import Footer from '../components/components/Footer'
 import CookiesConset from '../components/components/Cookies'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import Fade from 'react-reveal/Fade'
-
+import Script from 'next/script'
 
 export default function Home() {
   const hoveredStyle = {
@@ -41,13 +41,13 @@ export default function Home() {
         content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
          
         />
-        <link rel="icon" href="/teachinglogo.png" />
+        <link rel="icon" href="/head.png" />
  
 
       </Head>
       <div className="bg-none">
       
-      
+    
         <Logo />
       </div>
       
@@ -75,6 +75,7 @@ sx={{
            <Fade right>
           <div className="mt-4">
          <Image
+         alt="tablet"
          className="rounded-md "
            src="/tablet.jpg"
            width={500}
@@ -94,15 +95,17 @@ sx={{
       width="50"
       height="50" />
 
+
+<Fade top>
 <div className="grid grid-rows-2 md:grid-rows-2 lg:grid-rows-2 gap-2">
 
 <p className="text-4xl text-center font-bold text-white font-serif mt-20">
 
 <br/>I repeat, if you want to speak CONFIDENTLY and you want to do it NOW.<br/> Put that book, <br/>DOWN!</p>
 
-
 <Image
          className="rounded-md"
+         alt="pub"
            src="/pub.jpg"
            width={500}
            height={500}
@@ -110,7 +113,7 @@ sx={{
          />
   
 </div>
-
+</Fade>
 
   
   
@@ -130,7 +133,9 @@ sx={{
       <Icons />
     <IconsText />
    
+   
       <div id="About">
+      
 <h2 className="text-4xl font-bold text-center font-serif mt-20">About me</h2>
 
 
@@ -153,10 +158,14 @@ I have travelled around the world and met 1000’s of foreign language speakers.
 </ul>
 
         </p>
+       
       </div>
+      
       <div>
+      
         <Testimonials />
       </div>
+      
         <Stats />
       
    <div className="mt-20">

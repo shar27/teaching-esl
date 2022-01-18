@@ -1,4 +1,7 @@
+# Block all crawlers for /accounts
+User-agent: *
+Disallow: /accounts
+
+# Allow all crawlers
 User-agent: *
 Allow: /
-
-Sitemap: http:/localhost:3000/api/my-sitemap

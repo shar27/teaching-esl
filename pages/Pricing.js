@@ -26,6 +26,7 @@ function Pricing() {
 <h5 className=" text-center font-bold p- mt-10">Single x 4</h5>
   <div>
     <Image
+    alt="something"
         src="/phone.png"
         width = "200"
         height ="200"
@@ -46,6 +47,7 @@ function Pricing() {
 <h5 className=" text-center font-bold p- mt-12">Single x 4</h5>
   <div>
     <Image
+    alt="something"
         src="/singlecall.png"
         width = "200"
         height ="200"
@@ -67,6 +69,7 @@ function Pricing() {
 <h5 className="text-center font-bold p-2 mt-1">Group lesson x 4</h5>
   <div className="card-body">
     <Image
+    alt="something"
         src="/groupcall.png"
         width = "200"
         height ="200"

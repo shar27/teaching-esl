@@ -5,6 +5,7 @@ function Logo() {
     return (
         <div className="flex justify-center mb-4 mt-4 bg-none">
     <Image
+    alt="logo"
     className= 'rounded-3xl object-contain' 
      src="/head.png"
      width="200"

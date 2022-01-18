@@ -15,6 +15,7 @@ console.log(post);
           src={'https:' + thumbnail.fields.file.url}
           width={thumbnail.fields.file.details.image.width}
           height={thumbnail.fields.file.details.image.height}
+          alt="content"
         />
       </div>
       <div className="content">

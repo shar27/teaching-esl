@@ -3,6 +3,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import Image from 'next/image'
 import Nav from '../../components/components/Nav'
 import Logo from '../../components/components/Logo'
+import Head from 'next/head'
 
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID,
@@ -36,7 +37,7 @@ export const getStaticProps = async ({ params }) => {
     return {
       redirect: {
         destination: '/',
-        permanent: false,
+        permanent: true,
       },
     }
   }
@@ -54,10 +55,22 @@ export default function Allposts({ post }) {
 
   return (
     <div>
+    <Head>
+        <title>post</title>
+        <meta
+        name="google-site-verification" 
+        content="post"
+         
+        />
+        <link rel="icon" href="/head.png" />
+ 
+
+      </Head>
     <Logo/>
     <Nav/>
       <div className="banner">
         <Image 
+        alt="something"
           src={'https:' + featuredImage.fields.file.url}
           width={featuredImage.fields.file.details.image.width}
           height={featuredImage.fields.file.details.image.height}

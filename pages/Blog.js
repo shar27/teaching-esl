@@ -2,6 +2,8 @@ import { createClient } from 'contentful'
 import Posts from '../components/Posts'
 import Nav from '../components/components/Nav'
 import Logo from '../components/components/Logo'
+import Head from 'next/head'
+
 export async function getStaticProps() {
 
   const client = createClient({
@@ -25,6 +27,17 @@ export default function Blogs({ posts }) {
   return (
   
     <div className='overscroll-contain'>
+    <Head>
+        <title>Blog</title>
+        <meta
+        name="google-site-verification" 
+        content="blog page for learning english"
+         
+        />
+        <link rel="icon" href="/head.png" />
+ 
+
+      </Head>
     <Logo/>
     <Nav/>
     <h1 className='text-6xl font-serf font-bold  text-center mb-20 mt-20'>English learning tips 101</h1>
