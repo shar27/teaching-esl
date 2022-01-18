@@ -2,12 +2,12 @@
   "name": "teacher-esl",
   "private": true,
   "scripts": {
-    "prebuild": "node scripts/sitemap",
+    
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export"
+    "lint": "next lint"
+    
   },
   "dependencies": {
     "@aaronhayes/react-use-hubspot-form": "^2.1.0",
