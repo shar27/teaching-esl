@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 function Icons() {
     return (
 
-<div className="flex justify-evenly ">
+<div className="flex justify-evenly bg-black ">
    
 <Fade left>
    <Image

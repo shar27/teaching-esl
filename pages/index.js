@@ -25,8 +25,6 @@ export default function Home() {
 
   return (
     <div className={styles.mainbackground}>
-      
-
       <Head>
         <title>Teacher-ESL</title>
         <meta
@@ -82,11 +80,7 @@ export default function Home() {
           </Fade>
         </div>
         <div className="w-full">
-        <InlineWidget
-          id="calender"
-          url="https://calendly.com/shariqahmed"
-         
-        />
+          <InlineWidget id="calender" url="https://calendly.com/shariqahmed" />
         </div>
         <Fade top>
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
@@ -119,23 +113,17 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#000000"
-            fill-opacity="1"
-            d="M0,320L1440,0L1440,320L0,320Z"
-          ></path>
-        </svg>
+       
         <Icons />
         <IconsText />
-
-        <div id="About">
+       
+        <div id="About" className="bg-white text-black font-serif">
           <h2 className="text-4xl font-bold text-center font-serif mt-20">
             About me
           </h2>
 
           <div className="text-center mt-20">
-            <p className="text-2xl font-bold text-white font-serif ">
+            <p className="text-2xl font-bold text-black font-serif ">
               {" "}
               I’m Shariq Ahmed, the owner <br />
               of <br />
@@ -160,14 +148,11 @@ export default function Home() {
                 <br />
                 <br />
                 <div className="bg-clip contents">
-                <Image 
-                className="bg-blue-200"
-                  src="/slow.png"
-                  width={500}
-                  height={500}
-                  alt="slow"
-                />
-               </div><br/>
+                <Fade left>
+                  <Image src="/slow.png" width={500} height={500} alt="slow" />
+                  </Fade>
+                </div>
+                <br />
                 Too much time is spent READING and WRITING with only simple
                 conversational topics that leave you frustrated. I have met many
                 students who have been learning English for years and still are
@@ -189,42 +174,34 @@ export default function Home() {
               the word. Now, I can help students everywhere in the world… and
               now it’s your turn.
               <ul className="mt-20">
-              <div className="grid grid-rows-1">
-                <li className="mt-20">
-                  I will teach you to speak English fluently to get better jobs,
-                  or to be involved in business meetings.
-                </li>
-               
-                <li className="mt-20 flex  justify-center ">
-                
-                  I will help you make friends wherever you go with some of my
-                  best kept secrets.
-                  <li>
-                  I will teach you how to spend time with familes at events.
-                </li>
-                
-                </li>
-               
+                <div className="grid grid-rows-1">
+                  <li className="mt-20">
+                    I will teach you to speak English fluently to get better
+                    jobs, or to be involved in business meetings.
+                  </li>
+
+                  <li className="mt-20 flex  justify-center ">
+                    I will help you make friends wherever you go with some of my
+                    best kept secrets.
+                    <li>
+                      I will teach you how to spend time with familes at events.
+                    </li>
+                  </li>
                 </div>
-                
               </ul>
             </p>
           </div>
+          <Fade left>
           <div className="flex justify-center">
-          <Image
-                  
-                  src="/prog.png"
-                  width={400}
-                  height={400}
-                  alt="prog"
-                />
+            <Image src="/prog.png" width={400} height={400} alt="prog" />
           </div>
+          </Fade>
           <div>
             <Testimonials />
           </div>
 
           <Stats />
-         
+
           <div className="mt-20">
             <InlineWidget
               id="calender"

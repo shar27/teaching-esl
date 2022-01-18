@@ -87,8 +87,8 @@ const slideImages = [
   
   const Testimonials = () => {
       return (
-        <div className="slide-container text-center text-dark mb-4 bg-black ">
-        <h1 className='text-6xl text-white font-bold font-serif mt-20'>Testimonials</h1>
+        <div className="slide-container text-center text-dark mb-4 bg-black mt-20 ">
+        <h1 className='text-6xl text-white font-bold font-serif mt-30'>Testimonials</h1>
         <Fade right>
  
            {slideImages.map((slideImage, index)=> (
