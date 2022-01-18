@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Icons() {
     return (
 
-<div className="flex justify-evenly mt-20">
+<div className="flex justify-evenly ">
    
 
    <Image

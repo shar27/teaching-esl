@@ -94,7 +94,7 @@ sx={{
       width="50"
       height="50" />
 
-<div className="grid grid-cols-2 md:grid-rows-2 lg:grid-rows-1 gap-4">
+<div className="grid grid-rows-2 md:grid-rows-2 lg:grid-rows-2 gap-2">
 
 <p className="text-4xl text-center font-bold text-white font-serif mt-20">
 
@@ -105,7 +105,7 @@ sx={{
          className="rounded-md"
            src="/pub.jpg"
            width={500}
-           height={400}
+           height={500}
 
          />
   
@@ -114,7 +114,7 @@ sx={{
 
   
   
-  <div className="grid grid-cols-2 gap-2 mt-20">
+  <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-2 gap-2 mt-20">
          <Test />
 <div className="border-2">
             <Dropbox />
