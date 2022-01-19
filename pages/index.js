@@ -129,9 +129,7 @@ export default function Home() {
 
           <Testimonials />
        
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,32L1440,288L1440,0L0,0Z"></path></svg>
-        <Stats />
-
+          <Stats />
         <div className="mt-20">
           <InlineWidget
             id="calender"

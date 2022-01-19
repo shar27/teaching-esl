@@ -108,6 +108,7 @@ const slideImages = [
               </div>
             ))} 
             </Fade>
+            
         </div>
       )
   }
