@@ -1,4 +1,11 @@
 module.exports = {
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      require("./scripts/sitemap-generator");
+    }
+    return config;
+  },
+ 
   reactStrictMode: true,
   
   images: {
@@ -6,7 +13,7 @@ module.exports = {
   
   },
  
-    
+  
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.

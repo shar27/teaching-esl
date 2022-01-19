@@ -83,7 +83,7 @@ export default function Home() {
           <InlineWidget id="calender" url="https://calendly.com/shariqahmed" />
         </div>
         <Fade top>
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
             <p className="text-4xl text-center font-bold text-white font-serif mt-20">
               <br />I repeat, if you want to speak CONFIDENTLY and you want to
               do it NOW.
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="border-2">
             <Dropbox />
             <div>
-              <p className="text-center  font-bold">
+              <p className="text-center  font-bold mb-4">
                 * Note: if you have something longer than a paragraph then
                 please email me first.{" "}
               </p>
