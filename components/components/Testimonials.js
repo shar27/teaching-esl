@@ -87,7 +87,7 @@ const slideImages = [
   
   const Testimonials = () => {
       return (
-        <div className="slide-container text-center text-dark mb-4 bg-black mt-20 ">
+        <div className="slide-container text-center text-dark mb-4 bg-zinc-900 mt-20 ">
         <h1 className='text-6xl text-white font-bold font-serif mt-30'>Testimonials</h1>
         <Fade right>
  
