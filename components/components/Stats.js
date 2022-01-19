@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import Image from 'next/image'
 function Stats() {
   return (
+    
     <div className="text-2xl sm:text-2xl md:text-3xl lg:text-5xl bg-white text-black font-serif">
       <Fade bottom>
         <h1 className="font-bold text-center me-4  mb-4 text-4xl">
