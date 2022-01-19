@@ -12,8 +12,8 @@ function Icons() {
    className='border-rounded'
        alt="something"
        src="/phonecall.png"
-       height="300"
-       width="300"
+       height="250"
+       width="250"
    />
    </Fade>
 
@@ -22,8 +22,8 @@ function Icons() {
 <Image
        alt="something"
        src="/newcal.png"
-       height="300"
-       width="300"
+       height="250"
+       width="250"
    />
    </Fade>
    </div>
@@ -32,8 +32,8 @@ function Icons() {
 <Image
        alt="something"
        src="/ranking.png"
-       height="300"
-       width="300"
+       height="250"
+       width="250"
    />
    </Fade>
 

@@ -13,7 +13,7 @@ function Test() {
       />
       </Head>
       
-        <div className="container text-center  mb-0 border-2 ">
+        <div className="container text-center p-4 border-2 ">
             
            <Fade top>
            <p className="text-4xl font-bold text-white"> Free English test here</p>
