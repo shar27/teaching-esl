@@ -53,13 +53,7 @@ export default function Home() {
 
       <div className="bg-black text-white">
         <Bgimg />
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#f3f4f5"
-            fill-opacity="1"
-            d="M0,0L1440,288L1440,0L0,0Z"
-          ></path>
-        </svg>
+       
         <div className="grid grid-cols-2 gap-2 ">
           <h1 className="text-4xl text-white font-serif text-center sm:text-left md:text-left font-bold mt-20 ml-4">
             Are you tired of searching for words when you speak?
@@ -101,24 +95,12 @@ export default function Home() {
             />
           </div>
         </Fade>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#000000"
-          fill-opacity="1"
-          d="M0,64L1440,288L1440,320L0,320Z"
-        ></path>
-      </svg>
-        <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-2 gap-2 mt-20">
+      
+        <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-2 gap-2 border-2 mb-10 ">
           <Test />
-          <div className="border-2">
+          
             <Dropbox />
-            <div>
-              <p className="text-center  font-bold mb-4">
-                * Note: if you have something longer than a paragraph then
-                please email me first.{" "}
-              </p>
-            </div>
-          </div>
+           
         </div>
 
         <Icons />
@@ -126,8 +108,7 @@ export default function Home() {
         <IconsText />
 
         <About />
-
-          <Testimonials />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,288L48,261.3C96,235,192,181,288,144C384,107,480,85,576,106.7C672,128,768,192,864,218.7C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>          <Testimonials />
        
           <Stats />
         <div className="mt-20">

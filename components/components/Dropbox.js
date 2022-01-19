@@ -15,10 +15,15 @@ export default function Dropbox() {
 
     return (
        
- <div className="container mt-4">
-    
+ <div className="container">
+    <p className="text-4xl text-center font-bold ">Got an essay or document?<br/> I will check your translation for FREE!</p>
     <p className="  text-center font-bold text-4xl ms-4">*** Please include your full name, title of the document and date.</p>
     <p className="  text-center font-bold text-4xl ms-4 ">"Joe Bloggs - assignment proofread"</p>
+    <p className="text-center  font-bold mb-4">
+      * Note: if you have something longer than a paragraph then
+      please email me first.{" "}
+    </p>
+
       <br/>
           
       <br/>
