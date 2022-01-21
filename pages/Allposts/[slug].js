@@ -4,6 +4,8 @@ import Image from 'next/image'
 import Nav from '../../components/components/Nav'
 import Logo from '../../components/components/Logo'
 import Head from 'next/head'
+import ReactPlayer from "react-player";
+import {useState} from 'react'
 
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID,
@@ -50,8 +52,8 @@ export const getStaticProps = async ({ params }) => {
 
 export default function Allposts({ post }) {
   
-
-  const { featuredImage, title, information } = post.fields
+ const [isPlaying, setIsPlaying] = ("true")
+  const { featuredImage, title, information, video } = post.fields
 
   return (
     <div>
@@ -70,19 +72,38 @@ export default function Allposts({ post }) {
     <Nav/>
       <div className="banner">
         <Image 
+        className='w-96'
         alt="something"
           src={'https:' + featuredImage.fields.file.url}
-          width={featuredImage.fields.file.details.image.width}
-          height={featuredImage.fields.file.details.image.height}
+          width={1400}
+          height={700}
         />
         <h2 className='text-4xl font-bold'>{ title }</h2>
       </div>
 
+      <div>
+
+      </div>
      
+      
+
+      <div className='grid grid-rows-2 grid-cols-1 gap-2'>
         
       <div className="method">
         <h3 className='text-4xl font-bold font-serif mb-20 text-center'>Method:</h3>
         <div className='container ml-10 text-2xl'>{documentToReactComponents(information)}</div>
+      </div>
+      <div className='flex justify-center'>
+      <ReactPlayer
+       
+        controls="true"
+        
+        url={`https:` + video.fields.file.url}
+        playing={isPlaying}
+        height="100%"
+        width="50%"
+      />
+      </div>
       </div>
 
       <style jsx>{`
@@ -98,7 +119,12 @@ export default function Allposts({ post }) {
           top: -60px;
           left: -10px;
           transform: rotateZ(-1deg);
+          
           box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+        }
+        .hero {
+          width: 50px;
+          height: 50px;
         }
         .info p {
           margin: 0;

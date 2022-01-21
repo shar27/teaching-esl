@@ -27,10 +27,11 @@ export default function Home() {
   return (
     <div className={styles.mainbackground}>
       <Head>
-        <title>Teacher-ESL</title>
+        <title>Start learning to speak English today for free! - Learn to speak English with a British Native speaker.</title>
         <meta
           name="google-site-verification"
           content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
+          description
         />
         <link rel="icon" href="/head.png" />
       </Head>
