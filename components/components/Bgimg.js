@@ -25,11 +25,11 @@ function Bgimg() {
         width="100%"
       />
       <Fade bottom>
-        <div className="absolute  z-50 left-0 top-20  md:top-28 lg:top-32 font-serif h-16 font-bold text-white text-4xl sm:text-2xl md:text-6xl lg:text-9xl">
-          Learn to speak english with confidence.
-          <div className="text-lg md:text-4xl lg:text-4xl  ">
-        <Contact/>
-        </div>
+        <div className="absolute z-50 left-5 top-24 md:top-28 lg:top-32 font-serif h-16 font-bold text-white text-4xl sm:text-2xl md:text-6xl lg:text-9xl">
+          Learn to speak English with confidence.
+          
+        <span className="text-sm md:text-lg lg:text-2xl"><Contact/></span>
+        
         </div>
        
       </Fade>

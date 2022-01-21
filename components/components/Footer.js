@@ -10,7 +10,7 @@ function Footer() {
                
             </Link>
             <Link href="/Refunds">
-                <li className="list-unstyled text-center"><a>Refunds</a></li>
+                <li className="list-unstyled text-center"><a>Refund policy</a></li>
                
             </Link>
             </ul>
