@@ -27,11 +27,14 @@ export default function Home() {
   return (
     <div className={styles.mainbackground}>
       <Head>
-        <title>Start learning to speak English today for free! - Learn to speak English with a British Native speaker.</title>
+        <title>
+          Start learning to speak English today for free! - Learn to speak
+          English with a British Native speaker.
+        </title>
         <meta
           name="google-site-verification"
           content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
-          description
+          description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."
         />
         <link rel="icon" href="/head.png" />
       </Head>
@@ -75,7 +78,7 @@ export default function Home() {
             </div>
           </Fade>
         </div>
-        
+
         <div className="w-full">
           <InlineWidget id="calender" url="https://calendly.com/shariqahmed" />
         </div>

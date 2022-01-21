@@ -2,10 +2,21 @@ import React from 'react'
 import Logo from '../components/components/Logo'
 import Nav from '../components/components/Nav'
 import Contact from '../components/components/Contact'
+import Head from 'next/head'
+
 
 function Terms() {
     return (
         <div>
+        <Head>
+      <title>Start learning to speak English today for free! - Learn to speak
+          English with a British Native speaker.</title>
+        <meta
+        name="google-site-verification" 
+        content="blog page for learning english"
+        description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."
+        />
+        </Head>
         <Logo/>
         <Nav/>
         <div className="container text-center">

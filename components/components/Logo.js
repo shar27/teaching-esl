@@ -7,7 +7,7 @@ function Logo() {
     <Image
     alt="logo"
     className= 'rounded-3xl object-contain' 
-     src="/head.png"
+     src="/mainlogo.png"
      width="200"
      height="200"
    />

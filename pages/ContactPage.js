@@ -15,7 +15,7 @@ function ContactPage() {
   return (
         <div>
         <Head>
-        <title>Contact</title>
+        <title>Contact me</title>
         <meta
         name="google-site-verification" 
         content="contact page"
