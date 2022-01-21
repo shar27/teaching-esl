@@ -51,7 +51,7 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export default function Allposts({ post }) {
-  const [isPlaying, setIsPlaying] = "true";
+  const [isPlaying, setIsPlaying] = useState(true);
   const { featuredImage, title, information, video } = post.fields;
 
   return (
@@ -94,7 +94,7 @@ export default function Allposts({ post }) {
         </div>
         <div className="flex justify-center">
           <ReactPlayer
-            controls="true"
+            controls={true}
             url={`https:` + video.fields.file.url}
             playing={isPlaying}
             height="100%"
