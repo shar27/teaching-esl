@@ -4,7 +4,7 @@ import Nav from './components/Nav'
 import Logo from './components/Logo'
 
 export default function Allposts({ post }) {
-  const { title, slug, thumbnail} = post.fields
+  const { title, slug, thumbnail, video} = post.fields
 console.log(post);
   return (
     

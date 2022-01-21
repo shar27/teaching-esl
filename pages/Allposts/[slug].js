@@ -53,7 +53,9 @@ export const getStaticProps = async ({ params }) => {
 export default function Allposts({ post }) {
   const [isPlaying, setIsPlaying] = useState(true);
   const { featuredImage, title, information, video } = post.fields;
+
 console.log(post);
+
   return (
     <div>
       <Head>
@@ -81,7 +83,7 @@ console.log(post);
         <h2 className="text-4xl font-bold">{title}</h2>
       </div>
 
-      <div></div>
+      
 
       <div className="grid grid-rows-2 grid-cols-1 gap-2">
         <div className="method">
@@ -92,7 +94,15 @@ console.log(post);
             {documentToReactComponents(information)}
           </div>
         </div>
-       
+        <div className="flex justify-center">
+          <ReactPlayer
+            controls={true}
+            url={"https:" + video.fields.file.url}
+            playing={isPlaying}
+            height="100%"
+            width="50%"
+          />
+        </div>
       </div>
 
       <style jsx>{`
