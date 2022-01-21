@@ -96,6 +96,7 @@ console.log(post);
         </div>
         <div className="flex justify-center">
           <ReactPlayer
+          alt="video"
             controls={true}
             url={"https:" + video.fields.file.url}
             playing={isPlaying}
