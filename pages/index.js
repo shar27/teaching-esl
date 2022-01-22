@@ -83,14 +83,15 @@ export default function Home() {
           
           styles={{
             height: '500px',
-            width: '100%'
+            width: '100%',
+            marginbottom: '0'
             
           }}
 
            />
         
         <Fade top>
-          <div className="grid grid-cols-0 md:grid-cols-2 lg:grid-cols-1 ">
+          <div className="grid grid-cols-0 md:grid-cols-2 lg:grid-cols-2 ">
             <p className="text-4xl text-center font-bold text-white font-serif  mt-0 md:mt-10 lg:mt-20 ">
               <br />I repeat, if you want to speak CONFIDENTLY and you want to
               do it NOW,
