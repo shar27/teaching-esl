@@ -95,7 +95,7 @@ console.log(post);
             Method:
           </h3>
           <div className="container ml-2 md:ml-5 lg:ml-10 text-2xl p-5">
-            {documentToReactComponents(information)}
+           <p> {documentToReactComponents(information)}</p>
           </div>
         </div>
         <div className="flex justify-center">
