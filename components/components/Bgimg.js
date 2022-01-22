@@ -24,6 +24,7 @@ function Bgimg() {
         height="100%"
         width="100%"
         alt="video"
+        title="video background"
       />
       <Fade bottom>
         <div className="absolute z-50 left-5 top-24 md:top-28 lg:top-32 font-serif h-16 font-bold text-white text-4xl sm:text-2xl md:text-6xl lg:text-9xl">

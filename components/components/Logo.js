@@ -6,6 +6,7 @@ function Logo() {
         <div className="flex justify-center mb-4 mt-4 bg-none">
     <Image
     alt="logo"
+    title="learn english for free logo"
     className= 'rounded-3xl object-contain' 
      src="/mainlogo.png"
      width="200"

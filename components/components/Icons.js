@@ -10,7 +10,8 @@ function Icons() {
 <Fade left>
    <Image
    className='border-rounded'
-       alt="something"
+       alt="call me now for a lesson"
+       title="learn english online for free"
        src="/phonecall.png"
        height="250"
        width="250"
@@ -20,7 +21,8 @@ function Icons() {
 <div className="mt-4 ">
 <Fade top>
 <Image
-       alt="something"
+       alt="flexible schedule"
+       title="flexible learnings"
        src="/newcal.png"
        height="250"
        width="250"
@@ -30,7 +32,8 @@ function Icons() {
    
 <Fade right>
 <Image
-       alt="something"
+       alt="learn english with your phone"
+       title="learn english with your phone"
        src="/ranking.png"
        height="250"
        width="250"

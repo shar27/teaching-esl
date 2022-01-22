@@ -29,7 +29,8 @@ function Pricing() {
             <h5 className=" text-center font-bold p- mt-10">Single x 4</h5>
             <div>
               <Image
-                alt="something"
+                alt="phone lessons"
+                title="phone lessons"
                 src="/phoneles.png"
                 width="300"
                 height="300"
@@ -52,7 +53,8 @@ function Pricing() {
             <h5 className=" text-center font-bold p- mt-12">Single x 4</h5>
             <div>
               <Image
-                alt="something"
+                alt="60 minute lessons"
+                title="60 minute lessons"
                 src="/singles.png"
                 width="300"
                 height="300"
@@ -77,7 +79,8 @@ function Pricing() {
             <h5 className="text-center font-bold p-2 mt-1">Group lesson x 4</h5>
             <div className="card-body">
               <Image
-                alt="something"
+                alt="lessons online"
+                title="lessons in a group"
                 src="/vidcall.png"
                 width="300"
                 height="300"

@@ -60,7 +60,7 @@ console.log(post);
     <div>
       <Head>
         <title>
-          Start learning to speak English today for free! - Learn to speak
+          Start learning to speak English today for free! speak
           English with a British Native speaker.
         </title>
         <meta
@@ -75,7 +75,8 @@ console.log(post);
       <div className="banner">
         <Image
           
-          alt="something"
+          alt="featured image for learning english"
+          title="learn english for free"
           src={"https:" + featuredImage.fields.file.url}
           width={1350}
           height={850}
@@ -96,7 +97,8 @@ console.log(post);
         </div>
         <div className="flex justify-center">
           <ReactPlayer
-          alt="video"
+          alt="video for learning"
+          title="learn english for free"
           loop={false}
         
             controls={true}

@@ -51,7 +51,7 @@ export default function About() {
             <br />
             <div className="bg-clip contents">
               <Fade left>
-                <Image src="/slow.png" width={500} height={500} alt="slow" />
+                <Image src="/slow.png" width={500} height={500} alt="snail learning" title="snail placed learning is wrong" />
               </Fade>
             </div>
             <br />
@@ -95,7 +95,7 @@ export default function About() {
       </div>
       <Fade left>
         <div className="flex justify-center">
-          <Image src="/prog.png" width={400} height={400} alt="prog" />
+          <Image src="/prog.png" width={400} height={400} alt="learn quickly" title="learn quickly with my course" />
         </div>
       </Fade>
     </div>

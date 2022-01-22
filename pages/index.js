@@ -57,32 +57,40 @@ export default function Home() {
       <div className="bg-zinc-900	 text-white">
         <Bgimg />
 
-        <div className="grid grid-cols-2 gap-2 ">
-          <h1 className="text-4xl text-white font-serif text-center sm:text-left md:text-left font-bold mt-20 ml-4">
+        <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-1 gap-2 ">
+          <h1 className="display-inline text-4xl text-white font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">
             Are you tired of searching for words when you speak?
-            <br />
-            <br />
-            Start talking today, why not? It's free.{" "}
+            
+            
           </h1>
-
+          <h1 className="display-inline text-4xl text-white font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">Start talking today, why not? It's free.{" "}</h1>
           <Fade right>
-            <div className="grid grid-col-2 grid-rows-2">
+            <div className="grid grid-rows-1 md:grid-cols-2  lg:grid-cols-1 lg:grid-rows-1">
               <Image
                 alt="tablet"
+                title="learn online"
                 className="rounded-md "
                 src="/13.png"
-                width={500}
-                height={400}
+                width={300}
+                height={500}
               />
             </div>
           </Fade>
         </div>
 
-        <div className="w-full">
-          <InlineWidget id="calender" url="https://calendly.com/shariqahmed" />
-        </div>
+        
+          <InlineWidget id="calender" url="https://calendly.com/shariqahmed" width="300" height="300"
+          
+          styles={{
+            height: '500px',
+            width: '100%'
+            
+          }}
+
+           />
+        
         <Fade top>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
+          <div className="grid grid-cols-0 md:grid-cols-2 lg:grid-cols-1 ">
             <p className="text-4xl text-center font-bold text-white font-serif  mt-0 md:mt-10 lg:mt-20 ">
               <br />I repeat, if you want to speak CONFIDENTLY and you want to
               do it NOW,
@@ -92,7 +100,8 @@ export default function Home() {
 
             <Image
               className="rounded-md"
-              alt="pub"
+              alt="learn english"
+              title="learning english"
               src="/192.png"
               width={500}
               height={500}
@@ -114,6 +123,7 @@ export default function Home() {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             alt="shapes"
+            title="shapes for site"
             fill="#ffffff"
             fill-opacity="1"
             d="M0,288L48,261.3C96,235,192,181,288,144C384,107,480,85,576,106.7C672,128,768,192,864,218.7C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
