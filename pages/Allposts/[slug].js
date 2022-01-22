@@ -77,17 +77,17 @@ console.log(post);
           alt="featured image for learning english"
           title="learn english for free"
           src={"https:" + featuredImage.fields.file.url}
-          width={1350}
-          height={850}
+          width={1400}
+          height={550}
         />
-        <h1 className="text-4xl font-bold">{title}</h1>
+        <h1 className="text-4xl font-bold text-center font-serif">{title}</h1>
       </div>
 
       
 
       <div className="grid grid-rows-1 grid-cols-1 md:grid-rows-2 md:grid-cols-1 lg:grid-rows-2 lg:grid-cols-1 gap-2">
         <div className="method">
-          <h3 className="text-4xl font-bold font-serif mb-20 text-center">
+          <h3 className="text-4xl font-bold font-serif mb-20 text-center mt-20">
             Method:
           </h3>
           <div className="container ml-2 md:ml-5 lg:ml-10 text-2xl p-5">
