@@ -17,9 +17,10 @@ function ContactPage() {
         <Head>
         <title>Contact me</title>
         <meta
+        lang='en'
         name="google-site-verification" 
         content="contact page"
-         
+         description="Got questions, you can send me an email below and I will do my best to answer your questions."
         />
         <link rel="icon" href="/head.png" />
  

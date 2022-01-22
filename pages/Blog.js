@@ -31,9 +31,10 @@ export default function Blogs({ posts }) {
         <title>Start learning to speak English today for free! - Learn to speak
           English with a British Native speaker.</title>
         <meta
+        lang="en"
         name="google-site-verification" 
         content="blog page for learning english"
-         description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."
+         description="Read for more best free tips to learn English, Learning by yourself can be tough so read on to learn."
         />
         <link rel="icon" href="/head.png" />
  

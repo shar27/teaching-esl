@@ -63,6 +63,7 @@ console.log(post);
           {seo}
         </title>
         <meta
+        lang="en"
           name="google-site-verification"
           content="post"
           description={description}

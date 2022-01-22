@@ -31,6 +31,7 @@ export default function Home() {
           Start learning to speak English today for free with a native.
         </title>
         <meta
+        lang="en"
           name="google-site-verification"
           content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
           description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."

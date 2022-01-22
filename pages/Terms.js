@@ -13,8 +13,9 @@ function Terms() {
           English with a British Native speaker.</title>
         <meta
         name="google-site-verification" 
-        content="blog page for learning english"
-        description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."
+        lang='en'
+        content="terms and conditions"
+        description="read my terms and conditions before buying any lesson or package."
         />
         </Head>
         <Logo/>

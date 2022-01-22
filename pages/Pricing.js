@@ -11,9 +11,10 @@ function Pricing() {
     <div>
       <Head>
         <meta
+        lang="en"
           name="description"
           content="Pricing page for English lessons."
-          description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."
+          description="The best way to learning any language can be expensive. However, I offer some of the best rates on the market."
         />
         <title>Pricing page to learn English with a native speaker</title>
       </Head>

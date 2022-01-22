@@ -14,8 +14,8 @@ function Refunds() {
           English with a British Native speaker.</title>
         <meta
         name="google-site-verification" 
-        content="blog page for learning english"
-        description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."
+        content="refund policy"
+        description="Not happy with your purchase? get in touch and i'll do my best to help you."
         />
         </Head>
      
