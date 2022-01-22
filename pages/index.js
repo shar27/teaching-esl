@@ -65,14 +65,14 @@ export default function Home() {
           </h1>
           <h1 className="display-inline text-4xl text-white font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">Start talking today, why not? It's free.{" "}</h1>
           <Fade right>
-            <div className="grid grid-rows-1 md:grid-cols-2  lg:grid-cols-1 lg:grid-rows-1">
+            <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-1 lg:grid-rows-1">
               <Image
                 alt="tablet"
                 title="learn online"
                 className="rounded-md "
                 src="/13.png"
-                width={300}
-                height={500}
+                width={500}
+                height={600}
               />
             </div>
           </Fade>
