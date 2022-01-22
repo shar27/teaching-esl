@@ -51,7 +51,7 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export default function Allposts({ post }) {
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
   const { featuredImage, title, information, video } = post.fields;
 
 console.log(post);
@@ -85,18 +85,20 @@ console.log(post);
 
       
 
-      <div className="grid grid-rows-2 grid-cols-1 gap-2">
+      <div className="grid grid-rows-1 grid-cols-1 md:grid-rows-2 md:grid-cols-1 lg:grid-rows-2 lg:grid-cols-1 gap-2">
         <div className="method">
           <h3 className="text-4xl font-bold font-serif mb-20 text-center">
             Method:
           </h3>
-          <div className="container ml-10 text-2xl">
+          <div className="container ml-2 md:ml-5 lg:ml-10 text-2xl p-5">
             {documentToReactComponents(information)}
           </div>
         </div>
         <div className="flex justify-center">
           <ReactPlayer
           alt="video"
+          loop={false}
+        
             controls={true}
             url={"https:" + video.fields.file.url}
             playing={isPlaying}
