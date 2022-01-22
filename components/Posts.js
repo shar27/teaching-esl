@@ -1,18 +1,28 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import Nav from './components/Nav'
-import Logo from './components/Logo'
+import Link from "next/link";
+import Image from "next/image";
+import NavTwo from "./components/NavTwo";
+import Logo from "./components/Logo";
+import Head from "next/head";
 
 export default function Allposts({ post }) {
-  const { title, slug, thumbnail, video} = post.fields
-console.log(post);
+  const { title, slug, thumbnail, video } = post.fields;
+  console.log(post);
+
   return (
-    
-    
     <div className="card">
-          <div className="featured">
-        <Image 
-          src={'https:' + thumbnail.fields.file.url}
+      <Head>
+        <title>Learn English online through blogs</title>
+        <meta
+          name="description"
+          content="Best tips to learn English online for Free. Try them now"
+          content="width=device-width,initial-scale=1.0"
+        />
+        <link rel="canonical" href="https://teacher-esl.com" />
+      </Head>
+
+      <div className="featured">
+        <Image
+          src={"https:" + thumbnail.fields.file.url}
           width={thumbnail.fields.file.details.image.width}
           height={thumbnail.fields.file.details.image.height}
           alt="learn english for free thumbnail"
@@ -20,11 +30,12 @@ console.log(post);
       </div>
       <div className="content">
         <div className="info">
-          <h4>{ title }</h4>
-          
+          <h4>{title}</h4>
         </div>
         <div className="actions">
-          <Link href={'/Allposts/' + slug}><a>Read more</a></Link>
+          <Link href={"/Allposts/" + slug}>
+            <a>Read more</a>
+          </Link>
         </div>
       </div>
 
@@ -34,7 +45,7 @@ console.log(post);
         }
         .content {
           background: #fff;
-          box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
           margin: 0;
           position: relative;
           top: -40px;
@@ -64,5 +75,5 @@ console.log(post);
         }
       `}</style>
     </div>
-  )
+  );
 }

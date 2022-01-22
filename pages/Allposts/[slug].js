@@ -1,7 +1,7 @@
 import { createClient } from "contentful";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import Image from "next/image";
-import Nav from "../../components/components/Nav";
+import NavTwo from "../../components/components/Nav";
 import Logo from "../../components/components/Logo";
 import Head from "next/head";
 import ReactPlayer from "react-player";
@@ -64,14 +64,17 @@ console.log(post);
         </title>
         <meta
         lang="en"
-          name="google-site-verification"
-          content="post"
+          name="robots"
+          content="width=device-width,initial-scale=1.0"
           description={description}
+          
         />
-        <link rel="icon" href="/head.png" />
+       
+        
+         <link rel="icon" href="https:teacher-esl.com" />
       </Head>
       <Logo />
-      <Nav />
+      <NavTwo />
       <div className="banner">
         <Image
           

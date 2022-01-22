@@ -5,6 +5,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Logo from "../components/components/Logo";
 import Footer from "../components/components/Footer";
+import NavTwo from '../components/components/NavTwo'
 
 function Pricing() {
   return (
@@ -13,13 +14,14 @@ function Pricing() {
         <meta
         lang="en"
           name="description"
-          content="Pricing page for English lessons."
+          content="width=device-width,initial-scale=1.0"
           description="The best way to learning any language can be expensive. However, I offer some of the best rates on the market."
         />
+         <link rel="icon" href="https:teacher-esl.com/Pricing" />
         <title>Pricing page to learn English with a native speaker</title>
       </Head>
       <Logo />
-      <Nav />
+      <NavTwo />
 
       <div className="grid grid-rows-1 gap-3 mt-4 ">
         <div>

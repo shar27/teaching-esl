@@ -1,6 +1,6 @@
 import { createClient } from 'contentful'
 import Posts from '../components/Posts'
-import Nav from '../components/components/Nav'
+import NavTwo from '../components/components/NavTwo'
 import Logo from '../components/components/Logo'
 import Head from 'next/head'
 
@@ -33,15 +33,15 @@ export default function Blogs({ posts }) {
         <meta
         lang="en"
         name="google-site-verification" 
-        content="blog page for learning english"
+        content="width=device-width,initial-scale=1.0"
          description="Read for more best free tips to learn English, Learning by yourself can be tough so read on to learn."
         />
-        <link rel="icon" href="/head.png" />
+       <link rel="icon" href="https:teacher-esl.com/Blog" />
  
 
       </Head>
     <Logo/>
-    <Nav/>
+    <NavTwo/>
     <h1 className='text-6xl font-serf font-bold  text-center mb-20 mt-20'>English learning tips 101</h1>
       <div className="grid grid-rows-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
       {posts.map(post => (

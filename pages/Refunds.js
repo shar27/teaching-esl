@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/dist/client/link'
 import Logo from '../components/components/Logo'
-import Nav from '../components//components/Nav'
+import NavTwo from '../components//components/NavTwo'
 import Contact from '../components/components/Contact'
 import Head from 'next/head'
 
@@ -14,13 +14,14 @@ function Refunds() {
           English with a British Native speaker.</title>
         <meta
         name="google-site-verification" 
-        content="refund policy"
+        content="width=device-width,initial-scale=1.0"
         description="Not happy with your purchase? get in touch and i'll do my best to help you."
         />
+         <link rel="icon" href="https:teacher-esl.com/Refunds" />
         </Head>
      
       <Logo/>
-      <Nav/>
+      <NavTwo/>
       <div className="container text-center">
       <h1 className="display-5 text-center">Refund policy</h1>
    

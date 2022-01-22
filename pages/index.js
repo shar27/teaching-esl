@@ -24,6 +24,8 @@ export default function Home() {
     cursor: "pointer",
   };
 
+ 
+
   return (
     <div className={styles.mainbackground}>
       <Head>
@@ -34,9 +36,10 @@ export default function Home() {
         lang="en"
           name="google-site-verification"
           content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
+          content="width=device-width,initial-scale=1.0"
           description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."
         />
-        <link rel="icon" href="/head.png" />
+        <link rel="icon" href="https:teacher-esl.com" />
       </Head>
       <div className="bg-none">
         <Logo />

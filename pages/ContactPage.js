@@ -2,7 +2,7 @@ import React from 'react'
 import Mailchimp from 'react-mailchimp-form'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import Logo from '../components/components/Logo'
-import Nav from '../components/components/Nav'
+import NavTwo from '../components/components/NavTwo'
 import CookieConsent, { Cookies, resetCookieConsentValue } from "react-cookie-consent";
 import { useForm } from '@formspree/react';
 import Head from 'next/head'
@@ -19,17 +19,17 @@ function ContactPage() {
         <meta
         lang='en'
         name="google-site-verification" 
-        content="contact page"
+        content="width=device-width,initial-scale=1.0"
          description="Got questions, you can send me an email below and I will do my best to answer your questions."
         />
-        <link rel="icon" href="/head.png" />
+        <link rel="icon" href="https:teacher-esl.com/ContactPage" />
  
 
       </Head>
 
         <Logo/>
 
-        <Nav/>
+        <NavTwo/>
     
         <div>
 

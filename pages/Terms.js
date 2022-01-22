@@ -14,9 +14,10 @@ function Terms() {
         <meta
         name="google-site-verification" 
         lang='en'
-        content="terms and conditions"
+        content="width=device-width,initial-scale=1.0"
         description="read my terms and conditions before buying any lesson or package."
         />
+         <link rel="icon" href="https:teacher-esl.com/Terms" />
         </Head>
         <Logo/>
         <Nav/>
