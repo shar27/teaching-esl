@@ -20,7 +20,7 @@ function Terms() {
         <Logo/>
         <Nav/>
         <div className="container text-center">
-            <h2><strong>Terms and Conditions</strong></h2>
+            <h1 className="text-4xl font-bold"><strong>Terms and Conditions</strong></h1>
 
 <h2 className="display-4">Welcome to teacher-esl!</h2>
 

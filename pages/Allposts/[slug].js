@@ -52,7 +52,7 @@ export const getStaticProps = async ({ params }) => {
 
 export default function Allposts({ post }) {
   const [isPlaying, setIsPlaying] = useState(false);
-  const { featuredImage, title, information, video } = post.fields;
+  const { featuredImage, title, information, video, seo, description } = post.fields;
 
 console.log(post);
 
@@ -60,13 +60,12 @@ console.log(post);
     <div>
       <Head>
         <title>
-          Start learning to speak English today for free! speak
-          English with a British Native speaker.
+          {seo}
         </title>
         <meta
           name="google-site-verification"
           content="post"
-          description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."
+          description={description}
         />
         <link rel="icon" href="/head.png" />
       </Head>
@@ -81,7 +80,7 @@ console.log(post);
           width={1350}
           height={850}
         />
-        <h2 className="text-4xl font-bold">{title}</h2>
+        <h1 className="text-4xl font-bold">{title}</h1>
       </div>
 
       
