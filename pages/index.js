@@ -63,13 +63,13 @@ export default function Home() {
       <div className="bg-regal-blue	 text-white">
         <Bgimg />
 
-        <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-1 gap-2 ">
-          <h1 className="display-inline text-4xl text-white font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">
+        <div className="bg-white grid grid-cols-1 md:grid-cols-2  lg:grid-cols-1 gap-2 ">
+          <h1 className="display-inline text-4xl text-black font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">
             Are you tired of searching for words when you speak?
             
             
           </h1>
-          <h1 className="display-inline text-4xl text-white font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">Start talking today, why not? It's free.{" "}</h1>
+          <h1 className="display-inline text-4xl text-black font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">Start talking today, why not? It's free.{" "}</h1>
           <Fade right>
             <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-1 lg:grid-rows-1">
               <Image
