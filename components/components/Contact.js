@@ -15,7 +15,7 @@ function Contact () {
     
       <button onClick={openEmail} 
       type="submit" 
-      className=" bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Contact me</button>
+      className=" bg-cyan-400 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Contact me</button>
   
   </div>
       )
