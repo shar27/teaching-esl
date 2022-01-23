@@ -20,7 +20,7 @@ function Test() {
            <p className="text-4xl font-bold text-white mt-4 mb-4">A quick free 10 minute test that will help you determine your English level. </p>
             <p className='text-2xl font-bold mb-10'>Don't forget to upload your results.</p>
             <Link href= "https://app.tracktest.eu/registration?dh=teacheresl&embed=1"> 
-            <a className="rounded-md bg-blue-500 text-white p-2 font-bold mt-6">Click here</a>
+            <a className="rounded-md bg-cyan-400 text-white p-2 font-bold mt-6">Click here</a>
             </Link>
     </Fade>
         </div>

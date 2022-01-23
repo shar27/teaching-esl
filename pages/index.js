@@ -18,6 +18,8 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import Fade from "react-reveal/Fade";
 import Script from "next/script";
 import About from "../components/components/About";
+import useTranslation from 'next-translate/useTranslation';
+
 
 export default function Home() {
   const hoveredStyle = {
@@ -58,7 +60,7 @@ export default function Home() {
         }}
       />
 
-      <div className="bg-zinc-900	 text-white">
+      <div className="bg-regal-blue	 text-white">
         <Bgimg />
 
         <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-1 gap-2 ">

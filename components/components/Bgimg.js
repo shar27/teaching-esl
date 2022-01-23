@@ -5,6 +5,7 @@ import { useState } from "react";
 import Fade from "react-reveal/Fade";
 import Contact from "/components/components/Contact";
 
+
 function Bgimg() {
   const [isPlaying, setIsPlaying] = useState(true);
 
@@ -38,7 +39,7 @@ function Bgimg() {
             <button
               onClick={openEmail}
               type="submit"
-              className="bg-blue-500 hover:bg-blue-500 text-white ml-5 mt-5 md:ml-32 md:mt-10 lg:ml-48 lg:mt-20 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-sm md:text-2xl lg:text-6xl"
+              className="bg-cyan-400 hover:bg-blue-500 text-white ml-5 mt-5 md:ml-32 md:mt-10 lg:ml-48 lg:mt-20 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-sm md:text-2xl lg:text-6xl"
             >
               Contact me
             </button>

@@ -1,3 +1,4 @@
+
 module.exports = {
   webpack: (config, { isServer }) => {
     if (isServer) {
@@ -6,6 +7,10 @@ module.exports = {
     return config;
   },
  
+  i18n: {
+   locales: ['en','fr', 'pl'],
+   defaultLocale: 'en',
+ },
   reactStrictMode: true,
   
   images: {
