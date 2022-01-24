@@ -18,15 +18,12 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import Fade from "react-reveal/Fade";
 import Script from "next/script";
 import About from "../components/components/About";
-import useTranslation from 'next-translate/useTranslation';
-
+import useTranslation from "next-translate/useTranslation";
 
 export default function Home() {
   const hoveredStyle = {
     cursor: "pointer",
   };
-
- 
 
   return (
     <div className={styles.mainbackground}>
@@ -35,12 +32,16 @@ export default function Home() {
           Start learning to speak English today for free with a native.
         </title>
         <meta
-        lang="en"
+          lang="en"
           name="google-site-verification"
           content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
           content="width=device-width,initial-scale=1.0"
           description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."
         />
+        <meta
+          name="simpledcver"
+          content="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJlbmdsaXNoc3R1ZmYuY29tIiwiZXhwIjoxNjQzNTg3MjAwfQ.L4TSKTS7KKLqznNct-cwNWccrOvaxAK-meXchtgWmVc"
+        ></meta>
         <link rel="icon" href="https:teacher-esl.com" />
       </Head>
       <div className="bg-none">
@@ -66,10 +67,10 @@ export default function Home() {
         <div className="bg-white grid grid-cols-1 md:grid-cols-2  lg:grid-cols-1 gap-2 ">
           <h1 className="display-inline text-4xl text-black font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">
             Are you tired of searching for words when you speak?
-            
-            
           </h1>
-          <h1 className="display-inline text-4xl text-black font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">Start talking today, why not? It's free.{" "}</h1>
+          <h1 className="display-inline text-4xl text-black font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">
+            Start talking today, why not? It's free.{" "}
+          </h1>
           <Fade right>
             <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-1 lg:grid-rows-1">
               <Image
@@ -84,18 +85,18 @@ export default function Home() {
           </Fade>
         </div>
 
-        
-          <InlineWidget id="calender" url="https://calendly.com/shariqahmed" width="300" height="300"
-          
+        <InlineWidget
+          id="calender"
+          url="https://calendly.com/shariqahmed"
+          width="300"
+          height="300"
           styles={{
-            height: '500px',
-            width: '100%',
-            marginbottom: '0'
-            
+            height: "500px",
+            width: "100%",
+            marginbottom: "0",
           }}
+        />
 
-           />
-        
         <Fade top>
           <div className="grid grid-cols-0 md:grid-cols-2 lg:grid-cols-2 ">
             <p className="text-4xl text-center font-bold text-white font-serif  mt-0 md:mt-10 lg:mt-20 ">
@@ -126,8 +127,8 @@ export default function Home() {
 
         <IconsText />
 
-          <div id="About"></div>
-        <About/>
+        <div id="About"></div>
+        <About />
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             alt="shapes"
