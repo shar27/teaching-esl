@@ -19,6 +19,7 @@ import Fade from "react-reveal/Fade";
 import Script from "next/script";
 import About from "../components/components/About";
 import useTranslation from "next-translate/useTranslation";
+import Faqs from '../components/components/Faqs'
 
 export default function Home() {
   const hoveredStyle = {
@@ -148,6 +149,9 @@ export default function Home() {
             width="300"
             height="300"
           />
+        </div>
+        <div>
+          <Faqs/>
         </div>
         <div>
           <Contact />
