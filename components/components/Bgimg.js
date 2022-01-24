@@ -36,6 +36,7 @@ function Bgimg() {
         <div className="absolute z-50 left-5 top-24 md:top-28 lg:top-32 font-serif font-bold text-white text-2xl md:text-6xl lg:text-9xl">
           
             Learn to speak English with confidence.
+           
             <button
               onClick={openEmail}
               type="submit"
