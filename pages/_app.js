@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import '../styles/Home.module.scss'
 
-
+import Googlead from '../components/components/Googlead'
 import Script from 'next/script'
 
 
@@ -30,11 +30,7 @@ function MyApp({ Component, pageProps }) {
                 `}
       </Script> 
       
-        <Script 
-            
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.ADSENSE_ID}`}
-            
-        />
+       <Googlead/>
 
       <Script
         dangerouslySetInnerHTML={{
