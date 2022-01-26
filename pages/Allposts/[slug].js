@@ -1,5 +1,5 @@
 import { createClient } from "contentful";
-import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
+import { documentToReactComponents, BLOCKS } from "@contentful/rich-text-react-renderer";
 import Image from "next/image";
 import NavTwo from "../../components/components/Nav";
 import Logo from "../../components/components/Logo";
@@ -95,7 +95,8 @@ console.log(post);
             Method:
           </h3>
           <div className="container ml-2 md:ml-5 lg:ml-10 text-2xl p-5">
-           <p> {documentToReactComponents(information)}</p>
+           <div className=""> {documentToReactComponents(information)}</div>
+           
           </div>
         </div>
         <div className="flex justify-center">
