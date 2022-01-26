@@ -107,7 +107,7 @@ console.log(post);
             controls={true}
             url={"https:" + video.fields.file.url}
             playing={isPlaying}
-            height="100%"
+            height="50%"
             width="50%"
           />
         </div>
