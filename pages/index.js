@@ -33,7 +33,7 @@ export default function Home() {
   };
 
   return (
-    <div className={styles.mainbackground}>
+    <div>
       <Head>
         <title>
           Start learning to speak English today for free with a native.
@@ -51,39 +51,7 @@ export default function Home() {
         ></meta>
         <link rel="icon" href="https:teacher-esl.com" />
 
-        <Script
-        strategy='lazyOnload'
-        dangerouslySetInnerHTML={{
-            __html: `
-        
-    adroll_adv_id = ${process.env.ADROLL_ID};
-    adroll_pix_id = ${process.env.ADROLL_PIX_ID};
-    adroll_version = "2.0";
-
-    (function(w, d, e, o, a) {
-        w.__adroll_loaded = true;
-        w.adroll = w.adroll || [];
-        w.adroll.f = [ 'setProperties', 'identify', 'track' ];
-        var roundtripUrl = "https://s.adroll.com/j/" + adroll_adv_id
-                + "/roundtrip.js";
-        for (a = 0; a < w.adroll.f.length; a++) {
-            w.adroll[w.adroll.f[a]] = w.adroll[w.adroll.f[a]] || (function(n) {
-                return function() {
-                    w.adroll.push([ n, arguments ])
-                }
-            })(w.adroll.f[a])
-        }
-
-        e = d.createElement('script');
-        o = d.getElementsByTagName('script')[0];
-        e.async = 1;
-        e.src = roundtripUrl;
-        o.parentNode.insertBefore(e, o);
-    })(window, document);
-    adroll.track("pageView");
-`
-        }}
-    />    
+       
 
       </Head>
       <div className="bg-none">

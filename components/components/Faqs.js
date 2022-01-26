@@ -9,7 +9,7 @@ export default function Faqs() {
         title: "FAQ (How it works)",
         rows: [
             {
-                title: "Is the 15 minute trial free?,",
+                title: "Is the 15 minute trial free?",
                 content: `Yes, it is free for the first call.`,
             },
             {
