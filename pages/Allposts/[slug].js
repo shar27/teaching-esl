@@ -1,5 +1,8 @@
 import { createClient } from "contentful";
-import { documentToReactComponents, BLOCKS } from "@contentful/rich-text-react-renderer";
+import {
+  documentToReactComponents,
+  BLOCKS,
+} from "@contentful/rich-text-react-renderer";
 import Image from "next/image";
 import NavTwo from "../../components/components/Nav";
 import Logo from "../../components/components/Logo";
@@ -51,33 +54,29 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export default function Allposts({ post }) {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const { featuredImage, title, information, video, seo, description } = post.fields;
+  const [isPlaying, setIsPlaying] = useState(true);
+  const { featuredImage, title, information, video, seo, description } =
+    post.fields;
 
-console.log(post);
+  console.log(post);
 
   return (
     <div>
       <Head>
-        <title>
-          {seo}
-        </title>
+        <title>{seo}</title>
         <meta
-        lang="en"
+          lang="en"
           name="robots"
           content="width=device-width,initial-scale=1.0"
           description={description}
-          
         />
-       
-        
-         <link rel="icon" href="https:teacher-esl.com" />
+
+        <link rel="icon" href="https:teacher-esl.com" />
       </Head>
       <Logo />
       <NavTwo />
       <div className="banner">
         <Image
-          
           alt="featured image for learning english"
           title="learn english for free"
           src={"https:" + featuredImage.fields.file.url}
@@ -87,29 +86,23 @@ console.log(post);
         <h1 className="text-4xl font-bold text-center font-serif">{title}</h1>
       </div>
 
-      
-
       <div className="grid grid-rows-1 grid-cols-1 md:grid-rows-2 md:grid-cols-1 lg:grid-rows-2 lg:grid-cols-1 gap-2">
         <div className="method">
           <h3 className="text-4xl font-bold font-serif mb-20 text-center mt-20">
             Method:
           </h3>
           <div className="container ml-2 md:ml-5 lg:ml-10 text-2xl p-5">
-           <div className=""> {documentToReactComponents(information)}</div>
-           
+            <div className=""> {documentToReactComponents(information)}</div>
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center w-66 h-66 md:w-full md:h-72 lg:w-full lg:h-72">
           <ReactPlayer
-          alt="video for learning"
-          title="learn english for free"
-          loop={false}
-        
+            alt="video for learning"
+            title="learn english for free"
+            loop={true}
             controls={true}
             url={"https:" + video.fields.file.url}
             playing={isPlaying}
-            height="50%"
-            width="50%"
           />
         </div>
       </div>
