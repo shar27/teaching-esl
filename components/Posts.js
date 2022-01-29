@@ -5,6 +5,8 @@ import Logo from "./components/Logo";
 import Head from "next/head";
 
 export default function Allposts({ post }) {
+
+  //destructuring
   const { title, slug, thumbnail, video } = post.fields;
   console.log(post);
 

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.scss";
+
 import Nav from "../components/components/Nav";
 import Contact from "../components/components/Contact";
 import Logo from "../components/components/Logo";
@@ -19,15 +19,9 @@ import Fade from "react-reveal/Fade";
 import Script from "next/script";
 import About from "../components/components/About";
 import useTranslation from "next-translate/useTranslation";
-import Faqs from '../components/components/Faqs'
+import Faqs from "../components/components/Faqs";
 
 export default function Home() {
-  
-  
-  
-  
-  
-  
   const hoveredStyle = {
     cursor: "pointer",
   };
@@ -37,6 +31,7 @@ export default function Home() {
       <Head>
         <title>
           Start learning to speak English today for free with a native.
+          angielski online i nauka angielskiego
         </title>
         <meta
           lang="en"
@@ -50,9 +45,6 @@ export default function Home() {
           content="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJlbmdsaXNoc3R1ZmYuY29tIiwiZXhwIjoxNjQzNTg3MjAwfQ.L4TSKTS7KKLqznNct-cwNWccrOvaxAK-meXchtgWmVc"
         ></meta>
         <link rel="icon" href="https:teacher-esl.com" />
-
-       
-
       </Head>
       <div className="bg-none">
         <Logo />
@@ -160,7 +152,7 @@ export default function Home() {
           />
         </div>
         <div>
-          <Faqs/>
+          <Faqs />
         </div>
         <div>
           <Contact />

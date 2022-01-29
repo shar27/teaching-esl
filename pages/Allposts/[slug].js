@@ -10,27 +10,33 @@ import Head from "next/head";
 import ReactPlayer from "react-player";
 import { useState } from "react";
 
+
+//create client 
+
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID,
   accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
 });
 
+//get entries
 export const getStaticPaths = async () => {
   const res = await client.getEntries({
     content_type: "posts",
   });
-
+//map through data and create slug
   const paths = res.items.map((item) => {
     return {
       params: { slug: item.fields.slug },
     };
   });
-
+//if no slug
   return {
     paths,
     fallback: false,
   };
 };
+
+//prerender page
 
 export const getStaticProps = async ({ params }) => {
   const { items } = await client.getEntries({
@@ -38,6 +44,7 @@ export const getStaticProps = async ({ params }) => {
     "fields.slug": params.slug,
   });
 
+  //if the length is null redirect user
   if (!items.length) {
     return {
       redirect: {
@@ -54,7 +61,12 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export default function Allposts({ post }) {
-  const [isPlaying, setIsPlaying] = useState(true);
+
+  //state for video player
+  const [controls, setControls] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  //destructured the object to get what I need
   const { featuredImage, title, information, video, seo, description } =
     post.fields;
 
@@ -99,10 +111,13 @@ export default function Allposts({ post }) {
           <ReactPlayer
             alt="video for learning"
             title="learn english for free"
-            loop={true}
-            controls={true}
-            url={"https:" + video.fields.file.url}
+            muted={true}
+            loop={false}
+            controls={controls}
+            url={"https://" + video.fields.file.url}
             playing={isPlaying}
+           
+           
           />
         </div>
       </div>

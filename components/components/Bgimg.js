@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "next/dist/client/image";
+
 import ReactPlayer from "react-player";
 import { useState } from "react";
 import Fade from "react-reveal/Fade";
-import Contact from "/components/components/Contact";
+
 
 
 function Bgimg() {

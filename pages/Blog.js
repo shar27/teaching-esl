@@ -4,13 +4,15 @@ import NavTwo from '../components/components/NavTwo'
 import Logo from '../components/components/Logo'
 import Head from 'next/head'
 
-export async function getStaticProps() {
 
+//prerender page at build time
+export async function getStaticProps() {
+//connect to cms
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
   })
-
+//get the data
   const res = await client.getEntries({ content_type: "posts" })
 
   return {
