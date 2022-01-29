@@ -36,10 +36,10 @@ export default function Home() {
         <meta
           lang="en"
           name="google-site-verification"
+          name="description"
           content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
           content="width=device-width,initial-scale=1.0"
-          description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."
-        />
+          description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."/>
         <meta
           name="simpledcver"
           content="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJlbmdsaXNoc3R1ZmYuY29tIiwiZXhwIjoxNjQzNTg3MjAwfQ.L4TSKTS7KKLqznNct-cwNWccrOvaxAK-meXchtgWmVc"
