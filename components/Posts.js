@@ -11,7 +11,7 @@ export default function Allposts({ post }) {
   console.log(post);
 
   return (
-    <div className="card">
+    <div className="card overscroll-y-contain">
       <Head>
         <title>Learn English online through blogs</title>
         <meta
@@ -19,10 +19,10 @@ export default function Allposts({ post }) {
           content="Best tips to learn English online for Free. Try them now"
           content="width=device-width,initial-scale=1.0"
         />
-        <link rel="canonical" href="https://teacher-esl.com" />
+        <link rel="/mainlogo.png" href="https://teacher-esl.com" />
       </Head>
 
-      <div className="featured">
+      <div className="featured overscroll-y-none">
         <Image
           src={"https:" + thumbnail.fields.file.url}
           width={thumbnail.fields.file.details.image.width}
@@ -44,6 +44,7 @@ export default function Allposts({ post }) {
       <style jsx>{`
         .card {
           transform: rotateZ(-1deg);
+          overscroll-behaviour-y:none;
         }
         .content {
           background: #fff;

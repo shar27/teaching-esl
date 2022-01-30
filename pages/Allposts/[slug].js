@@ -73,7 +73,7 @@ if (!post) return <div className="text-4xl font-bold">Loading page</div>
   console.log(post);
 
   return (
-    <div>
+    <div className="">
       <Head>
         <title>{seo}</title>
         <meta

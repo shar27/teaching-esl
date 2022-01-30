@@ -28,7 +28,7 @@ export default function Blogs({ posts }) {
 
   return (
   
-    <div className='overscroll-contain'>
+    <div className=''>
     <Head>
         <title>Start learning to speak English today for free! - Learn to speak
           English with a British Native speaker.</title>
@@ -38,19 +38,21 @@ export default function Blogs({ posts }) {
         content="width=device-width,initial-scale=1.0"
          description="Read for more best free tips to learn English, Learning by yourself can be tough so read on to learn."
         />
-       <link rel="icon" href="https:teacher-esl.com/Blog" />
+       <link rel="mainlogo" href="https:teacher-esl.com/Blog" />
  
 
       </Head>
+   
     <Logo/>
     <NavTwo/>
-    <h1 className='text-6xl font-serf font-bold  text-center mb-20 mt-20'>English learning tips 101</h1>
-      <div className="grid grid-rows-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
+    
+    <h1 className='text-6xl font-serif font-bold  text-center mb-20 mt-20'>English learning tips 101</h1>
+      <div className=" overscroll-y-none grid grid-rows-2 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2 gap-4">
       {posts.map(post => (
         <Posts key={post.sys.id} post={post} />
       ))}
 </div>
-     
+    
     </div>
   )
 }

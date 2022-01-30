@@ -4,11 +4,13 @@ import Head from 'next/dist/shared/lib/head'
 import Image from 'next/image'
 
 function Nav() {
-    return (
-    <div>
+    
+  
+  return (
+    <div >
   
 
-<ul  className="nav flex justify-center text-black font-serif font-bold">
+<ul className="nav flex justify-center text-black font-serif font-bold">
 <li className="nav-item">
   <Link  href="/">
     <a  className="nav-link fw-bold m-2 p-1  pe-auto text-primary">Home</a>

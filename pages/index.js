@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-
 import Nav from "../components/components/Nav";
 import Contact from "../components/components/Contact";
 import Logo from "../components/components/Logo";
