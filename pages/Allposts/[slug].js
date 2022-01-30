@@ -49,7 +49,7 @@ export const getStaticProps = async ({ params }) => {
     return {
       redirect: {
         destination: "/",
-        permanent: true,
+        permanent: true
       },
     };
   }
