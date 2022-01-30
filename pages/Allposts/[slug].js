@@ -29,7 +29,7 @@ export const getStaticPaths = async () => {
       params: { slug: item.fields.slug },
     };
   });
-//if no slug
+//if no slug dont load 404 - reruns get static props
   return {
     paths,
     fallback: true,
@@ -61,7 +61,7 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export default function Allposts({ post }) {
-
+if (!post) return <div className="text-4xl font-bold">Loading page</div>
   //state for video player
   const [controls, setControls] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
