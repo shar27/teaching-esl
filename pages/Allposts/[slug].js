@@ -32,7 +32,7 @@ export const getStaticPaths = async () => {
 //if no slug
   return {
     paths,
-    fallback: false,
+    fallback: true,
   };
 };
 
