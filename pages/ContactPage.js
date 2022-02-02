@@ -1,6 +1,6 @@
 import React from "react";
 import Mailchimp from "react-mailchimp-form";
-import FacebookIcon from "@mui/icons-material/Facebook";
+
 import Logo from "../components/components/Logo";
 import NavTwo from "../components/components/NavTwo";
 import CookieConsent, {
@@ -12,6 +12,11 @@ import Head from "next/head";
 import { useState } from "react";
 
 function ContactPage() {
+ 
+  
+
+  
+  
   return (
     <div>
       <Head>
@@ -28,6 +33,7 @@ function ContactPage() {
       <Logo />
 
       <NavTwo />
+
 
       <div>
         <h1 className="text-4xl text-center mt-20 font-bold">

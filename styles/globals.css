@@ -3,7 +3,9 @@
 @tailwind utilities;
 @import "react-slideshow-image/dist/styles.css";
 
-html,
+html{
+  overscroll-behavior-y: none;
+}
 body {
   padding: 0;
   margin: 0;
