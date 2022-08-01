@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Nav from "../components/components/Nav";
 import Contact from "../components/components/Contact";
-import Logo from "../components/components/Logo";
 import Bgimg from "../components/components/Bgimg";
 import Icons from "../components/components/Icons";
 import IconsText from "../components/components/IconsText";
@@ -10,7 +9,6 @@ import Stats from "../components/components/Stats";
 import Testimonials from "../components/components/Testimonials";
 import Dropbox from "../components/components/Dropbox";
 import Test from "../components/components/Test";
-import { InlineWidget } from "react-calendly";
 import Footer from "../components/components/Footer";
 import CookiesConset from "../components/components/Cookies";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -35,9 +33,9 @@ export default function Home() {
         <meta
           lang="en"
           name="google-site-verification"
-          name="description"
-          content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
-          content="width=device-width,initial-scale=1.0"
+          
+         content="DimKqPqrSEcmpOF_ySwEdRIf81Ye6Pvu2nbEWhRGXRw"
+          
           description="The best way to learn any language is through immersion. If you wish to speak English fluently, a lot of practice is required. Don't waste your time trying to learn English from books or from CDs. Learn English from native speakers in real-time."/>
         <meta
           name="simpledcver"
@@ -45,9 +43,7 @@ export default function Home() {
         ></meta>
         <link rel="icon" href="https:teacher-esl.com" />
       </Head>
-      <div className="bg-none">
-        <Logo />
-      </div>
+      
 
       <Nav />
       <FacebookIcon
@@ -86,17 +82,7 @@ export default function Home() {
           </Fade>
         </div>
 
-        <InlineWidget
-          id="calender"
-          url="https://calendly.com/shariqahmed"
-          width="300"
-          height="300"
-          styles={{
-            height: "500px",
-            width: "100%",
-            marginbottom: "0",
-          }}
-        />
+       
 
         <Fade top>
           <div className="grid grid-cols-0 md:grid-cols-2 lg:grid-cols-2 ">
@@ -139,25 +125,21 @@ export default function Home() {
             d="M0,288L48,261.3C96,235,192,181,288,144C384,107,480,85,576,106.7C672,128,768,192,864,218.7C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
           ></path>
         </svg>
+        <div id="testimonials">
         <Testimonials />
-
-        <Stats />
-        <div className="mt-20">
-          <InlineWidget
-            id="calender"
-            url="https://calendly.com/shariqahmed"
-            width="300"
-            height="300"
-          />
         </div>
+        <Stats />
+        
         <div>
           <Faqs />
         </div>
-        <div>
+        <div id='contact' className="flex justify-center">
           <Contact />
+          </div>
+
           <Footer />
           <CookiesConset />
-        </div>
+        
       </div>
     </div>
   );

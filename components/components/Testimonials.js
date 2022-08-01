@@ -93,7 +93,7 @@ const slideImages = [
         <Fade right>
  
            {slideImages.map((slideImage, index)=> (
-              <div className="each-slide mt-4" key={index}>
+              <div className="each-slide mt-4 m-0 w-full" key={index}>
                 <div style={{'backgroundImage': `url(${slideImage.url})`}}>
                 <br/>
                 <br/>

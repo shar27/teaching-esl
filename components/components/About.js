@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import pdf from '/Users/Owner/teacher-esl/teaching-esl/public/pdf/pdf3.png'
 import Image from "next/image";
 
 export default function About() {
@@ -72,9 +73,36 @@ export default function About() {
             out what my previous clients have had to say.
             <br />
           </p>
+          <p>
           In fact, the course was so successful that I knew I had to spread the
           word. Now, I can help students everywhere in the world… and now it’s
           your turn.
+          </p>
+          <h3 className="text-6xl mt-2">Buy Now</h3>
+          
+          <section className="flex justify-center mt-5">
+         
+          <Image src={pdf} width={300} height={300} />
+          
+          
+         
+          </section>
+          <div className="flex justify-center text-center">
+          <a href="#contact">
+          <button
+              
+              type="submit"
+              className="bg-yellow-400 hover:bg-yellow-500 text-black ml-5 mt-5 
+              md:ml-32 md:mt-10 lg:ml-48 lg:mt-20 font-semibold 
+              hover:text-white  px-4 border border-blue-500
+               hover:border-transparent rounded-sm text-xl md:text-2xl lg:text-4xl"
+            >
+              Buy Now
+            </button>
+          </a>
+          <p className="p-20 text-2xl font-bold">200 PLN</p>
+         
+          </div>
           <ul className="mt-20">
             <div className="grid grid-rows-1">
               <li className="mt-20">
