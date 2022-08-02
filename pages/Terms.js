@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from '../components/components/Logo'
 import Nav from '../components/components/Nav'
 import Contact from '../components/components/Contact'
 import Head from 'next/head'
@@ -19,7 +18,7 @@ function Terms() {
         />
          <link rel="icon" href="https:teacher-esl.com/Terms" />
         </Head>
-        <Logo/>
+       
         <Nav/>
         <div className="container text-center">
             <h1 className="text-4xl font-bold"><strong>Terms and Conditions</strong></h1>
