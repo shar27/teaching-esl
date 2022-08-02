@@ -3,12 +3,10 @@ import Image from "next/image";
 import Nav from "../components/components/Nav";
 import Contact from "../components/components/Contact";
 import Bgimg from "../components/components/Bgimg";
-import Icons from "../components/components/Icons";
 import IconsText from "../components/components/IconsText";
 import Stats from "../components/components/Stats";
 import Testimonials from "../components/components/Testimonials";
-import Dropbox from "../components/components/Dropbox";
-import Test from "../components/components/Test";
+import pdf from '/public/pdf/pdf3.png'
 import Footer from "../components/components/Footer";
 import CookiesConset from "../components/components/Cookies";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -66,18 +64,31 @@ export default function Home() {
             Are you tired of searching for words when you speak?
           </h1>
           <h1 className="display-inline text-4xl text-black font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">
-            Start talking today, why not? It's free.{" "}
+            Buy My Special Course, Designed To Take You From B1 - C1.{" "}
           </h1>
+          <h3 className="text-6xl mt-2 text-black text-center">Buy Now</h3>
+          <p className="text-5xl font-bold text-black text-center">200 PLN</p>
+          <section className="flex justify-center">
+          
+          <a href="https://buy.stripe.com/14kdU4aZJaemgYUbIS">
+          <button
+              
+              type="submit"
+              className="bg-yellow-400 hover:bg-yellow-500 text-black ml-5 mt-5 
+              md:ml-32 md:mt-10 lg:ml-0 lg:mt-20 font-semibold 
+              hover:text-white  px-4 border border-blue-500
+               hover:border-transparent rounded-sm text-xl md:text-2xl lg:text-4xl"
+            >
+              Buy Now
+            </button>
+          </a>
+          
+          </section>
+          
           <Fade right>
-            <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-1 lg:grid-rows-1">
-              <Image
-                alt="tablet"
-                title="learn online"
-                className="rounded-md "
-                src="/13.png"
-                width={500}
-                height={600}
-              />
+            <div className="flex justify-center p-5">
+              
+            <Image src={pdf} width={300} height={300} className="rounded-md"/>
             </div>
           </Fade>
         </div>
@@ -85,33 +96,21 @@ export default function Home() {
        
 
         <Fade top>
-          <div className="grid grid-cols-0 md:grid-cols-2 lg:grid-cols-2 ">
+          <div className="grid grid-cols-0 md:grid-cols-2 lg:grid-cols-1 ">
             <p className="text-4xl text-center font-bold text-white font-serif  mt-0 md:mt-10 lg:mt-20 ">
               <br />I repeat, if you want to speak CONFIDENTLY and you want to
               do it NOW,
-              <br /> Put that book, <br />
-              DOWN!
+              <br /> Buy My Course, <br />
+              NOW!
             </p>
-
-            <Image
-              className="rounded-md"
-              alt="learn english"
-              title="learning english"
-              src="/192.png"
-              width={500}
-              height={500}
-            />
+           
+          
           </div>
         </Fade>
 
-        <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-2 gap-2 border-2 mb-10 ">
-          <Test />
+        
 
-          <Dropbox />
-        </div>
-
-        <Icons />
-
+      
         <IconsText />
 
         <div id="About"></div>

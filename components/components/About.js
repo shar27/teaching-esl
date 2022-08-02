@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import pdf from '/Users/Owner/teacher-esl/teaching-esl/public/pdf/pdf3.png'
+import pdf from '/public/pdf/pdf3.png'
 import Image from "next/image";
 
 export default function About() {
@@ -88,7 +88,7 @@ export default function About() {
          
           </section>
           <div className="flex justify-center text-center">
-          <a href="#contact">
+          <a href="https://buy.stripe.com/14kdU4aZJaemgYUbIS">
           <button
               
               type="submit"
@@ -112,11 +112,11 @@ export default function About() {
 
               <li className="mt-20 flex  justify-center mb-20">
                 I will help you make friends wherever you go with some of my
-                best kept secrets.
+                best kept secrets.</li>
                 <li>
                   I will teach you how to spend time with families at events.
                 </li>
-              </li>
+              
             </div>
           </ul>
         </p>
