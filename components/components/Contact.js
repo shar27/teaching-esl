@@ -19,7 +19,7 @@ export default function ContactUs () {
   };
 
   return (
-    <form className=' w-full lg:w-2/5 border border-2 border-black h-xxl5 bg-white text-black p-5' ref={form} onSubmit={sendEmail}>
+    <form className=' w-full lg:w-2/5 border border-2 border-black h-xxl5 bg-white text-black p-0 lg:p-5' ref={form} onSubmit={sendEmail}>
       <p className='text-red-500 font-bold text-center text-2xl'>{text}</p>
       <div>
       <label className='font-bold p-5'>Name</label>
@@ -31,7 +31,7 @@ export default function ContactUs () {
       </div>
       <div>
       <label className='font-bold p-5'>Message</label>
-      <textarea className='w-72 h-60 border border-2 border-black' name="message" />
+      <textarea className=' w-full lg:w-72 h-60 border border-2 border-black' name="message" />
       </div>
       <div className='text-center'>
       <input className='bg-cyan-400 p-8 h-20 cursor-pointer w-44 font-bold text-white text-xl rounded-md ' 
