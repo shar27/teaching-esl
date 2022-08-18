@@ -17,7 +17,7 @@ function Stats() {
           d="M0,288L48,261.3C96,235,192,181,288,144C384,107,480,85,576,106.7C672,128,768,192,864,218.7C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
         ></path>
       </svg>
-      <Fade bottom>
+     
         <h1 className="font-bold text-center me-4  mb-4 text-4xl">
           My results
         </h1>
@@ -26,11 +26,11 @@ function Stats() {
           <p className="text-center font-bold ">
             Students that I have worked with.
           </p>
-          <Fade right>
+          
             <div className="flex justify-center">
               <Image src="/loads.png" width={500} height={500} alt="a lot of students" title="taught 1000+ plus students" />
             </div>
-          </Fade>
+        
         </div>
 
         <div>
@@ -39,9 +39,9 @@ function Stats() {
             Have said they felt progress after a couple of weeks.
           </p>
           <div className="mt-20 flex justify-center">
-            <Fade left>
+           
               <Image src="/teach3.png" width={500} height={500} alt="make progress today" title="learn english today" />
-            </Fade>
+           
           </div>
         </div>
 
