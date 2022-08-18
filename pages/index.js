@@ -85,17 +85,17 @@ export default function Home() {
           
           </section>
           
-          <Fade right>
+         
             <div className="flex justify-center p-5">
               
             <Image src={pdf} width={300} height={300} className="rounded-md"/>
             </div>
-          </Fade>
+       
         </div>
 
        
 
-        <Fade top>
+       
           <div className="grid grid-cols-0 md:grid-cols-2 lg:grid-cols-1 ">
             <p className="text-4xl text-center font-bold text-white font-serif  mt-0 md:mt-10 lg:mt-20 ">
               <br />I repeat, if you want to speak CONFIDENTLY and you want to
@@ -106,8 +106,7 @@ export default function Home() {
            
           
           </div>
-        </Fade>
-
+   
         
 
       
