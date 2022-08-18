@@ -51,12 +51,12 @@ function Stats() {
             Have referred me to others.
           </p>
           <div className="mt-10 flex justify-center">
-            <Fade right>
+       
               <Image src="/ref.png" width={500} height={500} alt="satisfaction" title="referrals" />
-            </Fade>
+          
           </div>
         </div>
-      </Fade>
+  
     </div>
   );
 }
