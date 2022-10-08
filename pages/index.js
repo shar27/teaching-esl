@@ -10,10 +10,7 @@ import pdf from '/public/pdf/pdf3.png'
 import Footer from "../components/components/Footer";
 import CookiesConset from "../components/components/Cookies";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import Fade from "react-reveal/Fade";
-import Script from "next/script";
 import About from "../components/components/About";
-import useTranslation from "next-translate/useTranslation";
 import Faqs from "../components/components/Faqs";
 
 export default function Home() {
@@ -25,8 +22,8 @@ export default function Home() {
     <div>
       <Head>
         <title>
-          Start learning to speak English today for free with a native.
-          angielski online i nauka angielskiego
+          Start learning to Teach English today.
+          nauka angielskiego.
         </title>
         <meta
           lang="en"
@@ -61,13 +58,13 @@ export default function Home() {
 
         <div className="bg-white grid grid-cols-1 md:grid-cols-2  lg:grid-cols-1 gap-2 ">
           <h1 className="display-inline text-4xl text-black font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">
-            Are you tired of searching for words when you speak?
+            Are you a Teacher? are you TIRED of searching for lessons online?
           </h1>
           <h1 className="display-inline text-4xl text-black font-serif text-center md:text-center lg:text-center font-bold mt-20 ml-4">
-            Buy My Special Course, Designed To Take You From B1 - C1.{" "}
+            Buy My Special Course, Designed To Take students From B1 - C1.{" "}
           </h1>
           <h3 className="text-6xl mt-2 text-black text-center">Buy Now</h3>
-          <p className="text-5xl font-bold text-black text-center">200 PLN</p>
+          <p className="text-5xl font-bold text-black text-center">197 PLN</p>
           <section className="flex justify-center">
           
           <a href="https://buy.stripe.com/14kdU4aZJaemgYUbIS">
@@ -98,7 +95,7 @@ export default function Home() {
        
           <div className="grid grid-cols-0 md:grid-cols-2 lg:grid-cols-1 ">
             <p className="text-4xl text-center font-bold text-white font-serif  mt-0 md:mt-10 lg:mt-20 ">
-              <br />I repeat, if you want to speak CONFIDENTLY and you want to
+              <br />I repeat, if you want to teach CONFIDENTLY and you want to
               do it NOW,
               <br /> Buy My Course, <br />
               NOW!

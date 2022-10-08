@@ -25,59 +25,45 @@ export default function About() {
           Teacher-ESL.
           <br />
           <br />
-          I have travelled around the world and met 1000’s of foreign language
-          speakers. During my travels, I went to China and it was there where I
-          met Mark. Mark was from Poland and he spoke FLUENT ENGLISH and FLUENT
-          Mandarin.
+          I have travelled around the world and I have taught 1000’s of foreign language
+          speakers. This has made me an expert in Teaching! 
           <br /> <br />
-          So, I asked Mark –{" "}
+         
           <span className="italic text-2xl font-bold">
-            "how are you able to speak both languages so well?"
+            I still GET emails saying 
           </span>{" "}
-          I said to him:
+          "You are the best teacher I ever had. Can I have another lesson with you"
           <span className="italic text-2xl font-bold">
             {" "}
-            "I’ve been studying Chinese for 6 months and I still feel like I
-            can’t have a conversation."
+            This is because I know what it takes to teach effectively. I have learnt all the Challenges, 
+            I have made mistakes. TEFL never prepared me to TEACH for REAL! 
           </span>
           <br />
-          <br /> Mark was just one of many fluent foreign language speakers who
-          had I met. They didn’t have a particular talent for learning
-          languages,but they all had one thing in common: they had a good solid
-          learning strategy. That’s when I realised the method for learning
-          English is broken.
+          <br /> It was through HARD WORK and genuine FEEDBACK where I improved. 
           <br />
           <p>
             <br />
             <br />
             <div className="bg-clip contents">
               <Fade left>
-                <Image src="/slow.png" width={500} height={500} alt="snail learning" title="snail placed learning is wrong" />
+                <Image src="/slow.png" 
+                width={500} height={500} alt="snail learning" title="snail placed learning is wrong" />
               </Fade>
             </div>
             <br />
-            Too much time is spent READING and WRITING with only simple
-            conversational topics that leave you frustrated. I have met many
-            students who have been learning English for years and are still
-            unable to have a fluent conversation. They have all confirmed to me
-            that the learning strategy is not effective and it’s why when they
-            get to real world situations they are always feeling CONFUSED and
-            STRESSED.
+            This got me thinking, it would be SELFISH of me to not share this information. 
+            You DESERVE to be a competent teacher. 
           </p>
           <br />
           <p>
-            The frustration and stress both I and countless other students
+            The frustration and stress both I and countless other teachers
             experienced is the reason why I created my own course. A TRIED and
-            TESTED course that is proven to get you from ‘umming and ahing’ to
-            speaking fluently and confidently. If you don’t believe me, check
+            TESTED course that is proven to help you from DAY 1  
+            teaching confidently. If you don’t believe me, check
             out what my previous clients have had to say.
             <br />
           </p>
-          <p>
-          In fact, the course was so successful that I knew I had to spread the
-          word. Now, I can help students everywhere in the world… and now it’s
-          your turn.
-          </p>
+          
           <h3 className="text-6xl mt-2">Buy Now</h3>
           
           <section className="flex justify-center mt-5">
@@ -87,36 +73,33 @@ export default function About() {
           
          
           </section>
-          <div className="flex justify-center text-center">
+          < section className="flex justify-center text-center">
           <a href="https://buy.stripe.com/14kdU4aZJaemgYUbIS">
           <button
               
               type="submit"
-              className="bg-yellow-400 hover:bg-yellow-500 text-black ml-5 mt-5 
-              md:ml-32 md:mt-10 lg:ml-48 lg:mt-20 font-semibold 
+              className="bg-yellow-400 hover:bg-yellow-500 text-black 
+              mt-5 
+             md:mt-10 lg:mt-20 font-semibold 
               hover:text-white  px-4 border border-blue-500
                hover:border-transparent rounded-sm text-xl md:text-2xl lg:text-4xl"
             >
               Buy Now
             </button>
           </a>
-          <p className="p-20 text-2xl font-bold">200 PLN</p>
          
-          </div>
+          </section>
+          
+          <p className="p-20 text-4xl font-bold">197 PLN</p>
           <ul className="mt-20">
             <div className="grid grid-rows-1">
               <li className="mt-20">
-                I will teach you to speak English fluently to help you get
-                better jobs, or to be more involved in business meetings.
+                I will teach you to TEACH English Confidently to help you get
+                better jobs, more students and build your reputation as the best!
               </li>
 
-              <li className="mt-20 flex  justify-center mb-20">
-                I will help you make friends wherever you go with some of my
-                best kept secrets.</li>
-                <li>
-                  I will teach you how to spend time with families at events.
-                </li>
-              
+            
+        
             </div>
           </ul>
         </p>

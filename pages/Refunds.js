@@ -26,9 +26,15 @@ function Refunds() {
       <h2 className="text-center">PDF Course</h2>
         
         
-        <h2>Refunds will be issued on a case by case basis.</h2>
+        <h2>100% money back guanrantee if you are not satisfied with the course.</h2>
         <h3>For more information contact me below.</h3>
+        <div className='mt-2'>Back to home page ?  <a className='bg-yellow-300
+         text-black font-bold p-2 w-48
+         rounded-sm font-serif
+         ' href='/'>Home</a></div>
+        <section className='flex justify-center p-0 lg:p-2'>
         <Contact/>
+        </section>
         </div>
         </div>
     )

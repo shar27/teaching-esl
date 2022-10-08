@@ -9,6 +9,8 @@ function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
   
+
+
   return (
     <div className="flex items-center justify-between border-b border-gray-400 py-8">
     <a href="/">
@@ -44,6 +46,9 @@ function Nav() {
             </svg>
           </div>
           <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
+          <li className="border-b border-gray-400 my-8 uppercase">
+              <a href="#about">Home</a>
+            </li>
             <li className="border-b border-gray-400 my-8 uppercase">
               <a href="#about">About</a>
             </li>
